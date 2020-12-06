@@ -1,0 +1,445 @@
+\chapter{評価結果}
+本章では実験の結果と考察をまとめる.
+
+\section{被験者のFitbitデバイスおよびLag-Fitの使用率と頻度について}
+被験者の1人(User10,佐倉ラグビー部)は端末の保護者によるコンテンツ保護などの影響により,Lag-Fitが起動しなかった.
+チーム戦での不平等を解消するため当被験者は2週間,Fitbitの睡眠時の着用と同期のみを行ってもらった.
+3週目以降では同チームから追加で一人被験者(User11)を増やすことでこの問題を解決した.
+User11の情報について表\ref{adduser}に示す.
+%user11 sakura MSW MSF MSFsc SJL
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|c|c|c|c|c|}
+  	\hline
+	User & 所属チーム & MSW & MSF & MSFsc & SJL \\
+	\hline
+	User11 & 佐倉ラグビー部 & 3:15 & 3:15 & 3:15 & 0 \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{追加した被験者のデータ}
+ 	\label{adduser}
+\end{table}
+
+就寝時のFitbitデバイスの着用に関しては1週間あたり平均約5.4回だった.
+全ての週,全てのユーザにおいて少なくとも2回以上デバイスを着用していた.
+アプリケーションへのアクセス数は,被験者がアプリケーションを起動しマイページ画面を開いた時,もしくは更新をした時に一回と数えた.
+アプリケーションへのアクセス率は,その日一度でもアプリケーションを起動した人数の比率である.
+アクセス数を図\ref{access1}に,アクセス率を図\ref{access2}に示す.
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=100mm]{graph/7/access_pic1.eps}
+		\caption{Lag-Fitのアクセス数}
+		\label{access1}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=100mm]{graph/7/access_pic2.eps}
+		\caption{Lag-Fitのアクセス率}
+		\label{access2}
+	\end{center}
+\end{figure}
+
+評価実験において毎日アプリケーションにアクセスすることを求めたが,アクセス率は約62\%に程度にとどまった.
+アクセス率は全体の割合を第1週および第2週を9人,第3週および第4週を10人として割合を求めた.
+また,評価実験期間中User1(Life-Cloud)は一度もアクセスを行わなかった.
+アプリケーションの使用率が日数を追うごとにアクセスが減少傾向が見え,特に第1週と第4週を比較した際にその違いは顕著である.
+またアクセス数,アクセス率ともに週ごとに分割した時似たような傾向が見られる.
+週の始めはアクセスが少ない傾向がある.
+その後,日を追うごとに増えていく傾向がある.
+この週ごとの傾向は,アプリケーションのランキングやチーム戦が一週間周期でリセットされることが理由と考えられる.
+週末になるにつれてランキングの順位や勝利チームが見え始めるため,被験者がどの立ち位置にいるのか確認しやすい.
+ソーシャルゲームなどのスコアとランキングでは順位が確定する直前に最も順位変動が起こる.
+そのため,この傾向は週間ランキングとチーム戦の内少なくともどちらか一つが被験者の行動に影響を与えていると考えられる.
+
+\newpage
+
+\section{睡眠評価手法}
+本研究で提案した睡眠評価手法の精度と考察についてまとめる.
+図\ref{sleepdurationbox}にて各グループごとに睡眠時間の分布を箱ひげ図にてまとめた.
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=100mm]{graph/7/SleepDuration.eps}
+		\caption{各グループごとの睡眠時間の分布}
+		\label{sleepdurationbox}
+	\end{center}
+\end{figure}
+睡眠時間の平均には両チームともに大きな差が現れなかった.
+四分位点範囲に着目した時,Life-Cloudグループの方が幅が大きくなっている.
+また,下ヒゲを見た時,Life-Cloudグループは100分を下回っている.
+これらは社会的制約による差であると言える.
+社会的制約の小さいLife-Cloudグループは無理のある短時間睡眠や長時間睡眠を行いやすい.
+従って,この2チームには比較実験をするのに十分な社会的制約の差があると言える.
+
+\subsection{提案した評価手法と社会的ジェットラグ}
+本研究で提案した睡眠評価手法の主軸となる基準は「社会的ジェットラグが少なくなる睡眠であるか」であるため,得られた睡眠データから社会的ジェットラグと睡眠評価手法が算出した得点の間に負の相関があるかを評価する.
+各週,各被験者ごとにクロノタイプ(MSFsc,単位:時間)および社会的ジェットラグ(SJL,単位:m)を算出した.
+MCTQは平日と休日の睡眠時間帯を必要とするが,被験者によっては平日もしくは休日が一日も存在しない週がある.
+そのため該当する週において,被験者が最後に記録した以前のデータを用いることで補った.
+また被験者に平日または休日のデータが一度も存在しない場合,事前アンケートで答えてもらった平日および休日の睡眠時間帯データを用いて補った.
+社会的ジェットラグは一週間分のデータを対象とするのに対し,提案した評価手法は一日ごとに算出されるため,社会的ジェットラグのデータ1つにつき最大7つの提案した評価手法データを対応させる.
+全体とグループごとにそれぞれ解析した結果,図\ref{graph21}-図\ref{graph23}のようになった.
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/2score_sjl_life-cloud.eps}
+					\caption{得点と社会的ジェットラグの相関(Life-Cloud)(r=.009)}
+					\label{graph21}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/2score_sjl_sakura.eps}
+					\caption{得点と社会的ジェットラグの相関(佐倉ラグビー部)(r=-.440***)}
+					\label{graph22}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=70mm]{graph/7/2score_sjl_all.eps}
+		\caption{得点と社会的ジェットラグの相関(全体)(r=-.232***)}
+		\label{graph23}
+	\end{center}
+\end{figure}
+社会的制約の小さいLife-Cloudには相関が見られなかったのに対し,佐倉ラグビー部では中程度の負の相関が見られる.
+従って社会的制約が大きいグループにおいて,本研究の提案する評価手法の得点は社会的ジェットラグの性質を中程度引き継いでいる.
+次に社会的制約が大きいグループにおける睡眠評価手法に用いた3要素(睡眠時間,睡眠効率,睡眠時間帯)の得点と社会的ジェットラグの関係について解析する.
+解析結果を図\ref{graph31}-図\ref{graph33}に示す.
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/3sd_sjl_sakura.eps}
+					\caption{睡眠時間得点と社会的ジェットラグの相関(佐倉ラグビー部)(r=-.204*)}
+					\label{graph31}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/3quo_sjl_sakura.eps}
+					\caption{睡眠効率得点と社会的ジェットラグの相関(佐倉ラグビー部)(r=0.08)}
+					\label{graph32}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=70mm]{graph/7/3ms_sjl_sakura.eps}
+		\caption{睡眠時間帯得点と社会的ジェットラグの相関(佐倉ラグビー部)(r=-.470***)}
+		\label{graph33}
+	\end{center}
+\end{figure}
+睡眠時間,睡眠効率,睡眠時間帯にそれぞれ弱い負の相関,無相関,中程度の相関であった.
+睡眠効率は社会的ジェットラグとは関係ないことがわかった.
+また,睡眠時間帯の得点は提案した睡眠評価手法の得点よりもわずかに高い相関が出た.
+
+\subsection{提案する評価手法とアンケート}
+実験用Lag-Fitでは睡眠データの同期後にアプリケーションを開くとアンケートが出現し,今日の睡眠を0〜100点で答える.
+ここでは,アプリケーションが算出した得点と被験者が回答したアンケートを比較する.
+全体およびそれぞれのグループごとの相関図を図\ref{graph41}-図\ref{graph43}に示す.
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/4life-cloud_score_self.eps}
+					\caption{得点と自己採点得点の相関図(Life-Cloud)(r=.360**)}
+					\label{graph41}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/4sakura_score_self.eps}
+					\caption{得点と自己採点得点の相関図(佐倉ラグビー部)(r=.268*)}
+					\label{graph42}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=70mm]{graph/7/4all_score_self.eps}
+		\caption{得点と自己採点得点の相関図(全体)(r=.283***)}
+		\label{graph43}
+	\end{center}
+\end{figure}
+全ての相関図において弱い正の相関が見られた.
+またグループ間で大きな差は見られなかった.
+
+\clearpage
+
+次に全体における睡眠評価手法に用いた3要素(睡眠時間,睡眠効率,睡眠時間帯)の得点と自己採点アンケートの関係について解析する.
+解析結果を図\ref{graph51}-図\ref{graph53}に示す.
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/5all_duration_self.eps}
+					\caption{睡眠時間得点と自己採点得点の相関図(全体)(r=.290***)}
+					\label{graph51}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=70mm]{graph/7/5all_quo_self.eps}
+					\caption{睡眠効率得点と自己採点得点の相関図(全体)(r=-.081)}
+					\label{graph52}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=70mm]{graph/7/5all_ms_self.eps}
+		\caption{睡眠時間帯得点と自己採点得点の相関図(全体)(r=.164*)}
+		\label{graph53}
+	\end{center}
+\end{figure}
+結果は睡眠時間得点にのみ弱い相関が見られ,睡眠効率,睡眠時間帯得点には相関がほとんど見られなかった.
+
+\subsection{睡眠評価手法の考察}
+社会的ジェットラグと睡眠評価得点を比較した際は社会的制約が大きいグループの方がより高い相関を出した.
+MCTQも社会的制約が大きい人を対象とした評価手法であるため,MCTQの特徴を再現した評価手法である.
+3要素の内,睡眠時間帯が最も社会的ジェットラグと相関がある一方で,被験者の自己採点は睡眠時間との相関が最も高かった.
+本研究で提案する睡眠評価手法は将来的に社会的ジェットラグが解決されていく睡眠であるかを評価しているが,
+被験者の自己採点はその日快眠できたかが基準となるため両者間での違いも説明がつく.
+
+\section{ゲーミフィケーション手法}
+Lag-Fitで用いた各ゲーミフィケーション手法がどのように影響したかを分析する.
+Lag-Fitに用いたゲーミフィケーション手法について一つずつ考察した後,競争や協力などを行う際のプライバシーについて考察を行う.
+\subsection{レベルアップ}
+画面上部のステータスバーにてアプリケーション内での達成度に応じてユーザレベルを提示した.
+アンケートの結果は表\ref{levelup}ような評価となった.
+「ユーザレベルは睡眠改善の意識にどれだけ繋がりましたか」という問に対しては五段階評価で平均3.2(最大5.0)だった.
+自由記述では「ポイントが貯まるメリットがあまりわからなかった」などユーザレベルに価値を見いだせていない被験者が多く見られた.
+例えば,睡眠と日中の生産効率などの関係を用いて一定レベルに達した時に「いままで1日分の生産効率上げられました」というメッセージを出すなどの意味付けが必要であった.
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|l|}
+  	\hline
+	質問内容 & 結果 \\
+	\hline
+	\hline
+  	ユーザレベルは睡眠改善の意識にどれだけ繋がりましたか & 3.2\\
+	\hline
+	\multirow{4}{*}{そう思う理由や感想などを教えて下さい(Life-Cloud)} & ポイントが貯まるメリットがあまりわからなかった. \\	
+	& レベルに応じた報酬がなかったので興味が出なかった.\\
+	& \multirow{2}{*}{\shortstack{他人のレベルがわからないから自分がすごいのかどうか\\がわからなかった.}}\\
+	& \\
+	\hline
+	\multirow{4}{*}{同上(佐倉高校ラグビー部)} & \multirow{2}{*}{\shortstack{レベルがあることでよりレベルを上げたいという向上心\\が生まれるから}}\\
+	& \\
+	& 経験値とかレベルとかあるのは少し面白かった.\\
+	& 全く気にしていなかった. \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{最終アンケート:レベルアップについて}
+ 	\label{levelup}
+\end{table}
+
+\subsection{バッジと実績}
+実績画面では過去の睡眠の振り返りや80点以上で得られるバッジの色が金色になる.
+アンケートの結果は表\ref{badge}ような評価となった.
+「実績は睡眠改善の意識にどれだけ繋がりましたか」という質問に対しては五段階評価で平均3.4(最大5.0)の評価を得られた.
+「80点以上とろう！という気持ちになれた.」など,得点に対して具体的な目標を決められた被験者が見られた.
+また,最終アンケートの中で「Lag-Fitに追加で欲しい機能」の質問対し「もっとコレクター精神を煽るものが欲しい」と言った意見もあった.
+例えばテーブルによる一覧ではなくカレンダー形式でバッジを見ることができたり,金色バッジの獲得率が表示できることでこれらの機能を促進できるのではないか.
+
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|l|}
+  	\hline
+	質問内容 & 結果 \\
+	\hline
+	\hline
+  	実績は睡眠改善の意識にどれだけ繋がりましたか & 3.4\\
+	\hline
+	\multirow{3}{*}{そう思う理由や感想などを教えて下さい(Life-Cloud)} & より高い点数を取りたいという思いはあった. \\	
+	& 数字が3種類表示されるので、パッと見わかりづらかった.\\
+	& 自分の睡眠が点数化され少し興味をもったから.\\
+	\hline
+	\multirow{4}{*}{同上(佐倉高校ラグビー部)} & \multirow{2}{*}{\shortstack{ボーダーラインがあるためとてもわかりやすく,80点以上\\とろう！という気持ちになれた.}}\\
+	& \\
+	& 睡眠に関して足りないことが多いとわかった.\\
+	& 点数が低かった時に次回は改善しようと思えたから. \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{最終アンケート:バッジと実績について}
+ 	\label{badge}
+\end{table}
+
+\subsection{スコアとランキング}
+ランキング画面で1週間単位の合計睡眠得点をランキング形式で表示した.
+アンケートの結果は表\ref{scoreranking}ような評価となった.
+評価は五段階評価で平均3.7(最大5.0)と最も高い評価を得られた.
+「知り合いよりランキングが低いと悔しかった」など特定の親しい,もしくはライバル関係の知り合いと自分を比べる意見が多く見られた.
+また「上位者になれたので1周目はちょっと頑張ろうと思った.」など上位者がモチベーションを維持させようとする傾向が見られた.
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|l|}
+  	\hline
+	質問内容 & 結果 \\
+	\hline
+	\hline
+  	ランキングは睡眠改善の意識にどれだけ繋がりましたか & 3.7\\
+	\hline
+	\multirow{3}{*}{そう思う理由や感想などを教えて下さい(Life-Cloud)} & 上位者になれたので1週間目はちょっと頑張ろうと思った.\\
+	& あくまで睡眠は自分の体調と相談して決めるものだと思う.\\
+	& 知り合いよりランキングが低いと悔しかった.\\
+	\hline
+	\multirow{4}{*}{同上(佐倉高校ラグビー部)} & 友達と見比べたりするのが楽しかった.\\
+	& やるからには1位になりたいと思う気持ちができたから.\\
+	& ランキングが高いとなんとなく嬉しかった.\\
+	& どうせならランキングで上位に入りたいと思った. \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{最終アンケート:スコアとランキングについて}
+ 	\label{scoreranking}
+\end{table}
+
+\subsection{協力}
+チーム戦ページにてチーム対抗で5人の睡眠得点の合計を競い合わせた.
+アンケートの結果は表\ref{team}ような評価となった.
+「チーム戦は睡眠改善の意識にどれだけ繋がりましたか」に対し,五段階評価で2.8(最大5.0)と最も低い評価となった.
+「チームとして競うよりもライバルとして競う方がやる気がでる.」など協力より競争をしたい被験者が多く見られた.
+チーム戦が期待した,得点の悪いユーザに対し睡眠を取るよう声をかけるなどのコミュニケーションは報告されなかった.
+今回は別の団体に所属するチームとのチーム戦だったが,例えば同チームを半々で分けてチーム戦をすることで盛り上がるのではないか.
+
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|l|}
+  	\hline
+	質問内容 & 結果 \\
+	\hline
+	\hline
+  	チーム戦は睡眠改善の意識にどれだけ繋がりましたか & 2.8\\
+	\hline
+	\multirow{3}{*}{そう思う理由や感想などを教えて下さい(Life-Cloud)} & \multirow{2}{*}{\shortstack{チームとして競うよりもライバルとして競う方がやる気がでる.}}\\
+	& チーム意識があまり感じられなかった.\\
+	& もっとチームへの帰属意識があったらいいと感じた.\\
+	\hline
+	\multirow{5}{*}{同上(佐倉高校ラグビー部)} & これはあまり関係ないと思った.\\
+	& 1人でも欠けると一気に点数が下がるので,頑張ろうと思った.\\
+	& 自分も含め,着け忘れることが多くて点数が取れなかった.\\
+	& \multirow{2}{*}{\shortstack{チームに貢献しようという気持ちが芽生えるため,より良い睡眠\\に繋がると思ったから. }}\\
+	& \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{最終アンケート:協力について}
+ 	\label{team}
+\end{table}
+
+\subsection{共有を伴うゲーミフィケーションとプライバシー}
+競争や協力など共有を伴うゲーミフィケーションに対して,プライバシー情報の公開への抵抗がある.
+睡眠のデータの種類と公開への抵抗を表\ref{privacy1}に示す.
+睡眠効率が最も抵抗が少ない結果となったが,社会的ジェットラグとの関係がないため除く.
+就寝時間などのデータは五段階評価で平均4.2〜4.5(最大5.0)だったのに対し,本研究で提案した評価手法で算出した得点は平均4.8(最大5.0)で抵抗が少ない結果となった.
+また,公開する相手ごとの抵抗を表\ref{privacy2}に示す.
+自分のチームメンバーへの抵抗が少なく,先輩や上司などの立場が違うものに対して抵抗を見せた.
+また,TwitterやFacebookなどのSNSへの投稿はしたがらない傾向がみられた.
+
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|c|}
+  	\hline
+	種類 & 評価 \\
+	\hline
+	\hline
+	本研究で提案した評価手法で算出した得点 & 4.8\\
+	就寝時間 & 4.2\\
+	起床時間 & 4.2\\
+	睡眠時間 & 4.5\\
+	睡眠効率 & 4.9 \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{最終アンケート:睡眠データの種類ごとに公開への抵抗}
+ 	\label{privacy1}
+\end{table}
+
+\begin{table}[htbp]
+	\begin{center}
+	\scalebox{1.0}{
+	\begin{tabular}{|c|c|}
+  	\hline
+	相手 & 評価 \\
+	\hline
+	\hline
+	自分のチームメンバー & 4.8\\
+	他のチームメンバー & 4.7\\
+	先輩 & 4.0\\
+	リーダー,上司 & 3.9\\
+	家族 & 4.4\\
+	医者 & 4.7\\
+	TwitterやFacebookなどのSNS & 3.3 \\
+	\hline
+ 	\end{tabular}
+	}
+ 	\end{center}
+ 	\caption{最終アンケート:睡眠データの公開相手ごとの抵抗}
+ 	\label{privacy2}
+\end{table}
+
+\newpage
+\section{ゲーミフィケーションによる社会的ジェットラグの変化}
+最後に,本研究ではLag-Fitをユーザ使用することで睡眠不足を解消することが最終目標である.
+そこでグループごとに事前アンケートで算出した社会的ジェットラグと各週ごとの社会的ジェットラグの度合いの平均の変化を調べた.
+実験期間中全て参加した9人(Life-Cloud5人,佐倉ラグビー部4人)を評価対象とした.
+結果を図\ref{graph5}に示す.
+第1週では両チームともに事前アンケートで算出した社会的ジェットラグを平均約11分(Life-Cloud:約8分,佐倉ラグビー部:約15分)下回った.
+第2週,第3週は前週より社会的ジェットラグが大きくなった.
+アプリケーションを使い始めた第1週はモチベーションが高く社会的ジェットラグが小さくなったと考えられる.
+第2週以降アクセスが少なくなるにつれて社会的ジェットラグが大きくなった.
+第3週に両チームともに社会的ジェットラグが大きい理由は,年末年始であるため社会的制約の減少が原因だと考えられる.
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=100mm]{graph/7/socialjetlag.eps}
+		\caption{実験前アンケートと週ごとの社会的ジェットラグの変化}
+		\label{graph5}
+	\end{center}
+\end{figure}
+
+
+\section{まとめ}
+本章では,評価実験の結果および考察を使用率と使用頻度,睡眠評価手法,ゲーミフィケーション,社会的ジェットラグの変化の観点からまとめた.
+

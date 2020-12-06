@@ -1,0 +1,216 @@
+\chapter{Lag-Fit}
+本章では,当研究の問題意識から導きだした機能用件に対するアプローチを満たすために提案する,睡眠不足に対する行動変容促進アプリケーション「Lag-Fit」について説明する.
+
+\fboxsep=0pt
+
+\section{アプリケーションについて}
+Lag-Fitは,提案した睡眠評価手法を用いて「スコアとランキング」やチーム内の「協力」を行う.
+これらの行動変容促進手法を用いて睡眠不足の改善を促すことを目的としたアプリケーションである.
+アプリケーションはiOS専用アプリケーションとして実装した.
+iOSでの開発に置いて,使用言語はSwift2.0,統合開発環境としてXcode7.1を用いた.
+対象とした機種はiPhone5,iPhone5S,6iPhone,6SiPhone,iPhone6 Plus, iPhone6S Plusの6機種とし,対象OSはiOS8.1以上とした.
+ユーザがFitbitを使用して睡眠する事を前提としており,Fitbit社が公開しているFitbitAPIを用いてユーザの睡眠データを取得する.
+APIから取得できる睡眠データをソースコード\ref{sleeplog}に示す.
+特に,本アプリケーションに用いるデータに対して何を示すデータであるのかをコメントした.
+Fitbitサーバから送信された睡眠データを保存するためのサーバを徳田研究室のネットワーク内に設置した.
+サーバの実装環境はOSがUbuntu 14.04 LTSを,睡眠データの処理にPHPを用い,データベースはMySQLを使用した.
+システム構成図を図\ref{sysconf}に示す.
+
+
+\lstinputlisting[caption=FitbitAPIから取得できる睡眠ログの例,label=sleeplog]{sourse/SleepLogFull.json}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=120mm]{image/4/zukky_sysconf.eps}
+		\caption{Lag-Fitシステム構成図}
+		\label{sysconf}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\includegraphics[width=80mm]{image/4/fitbit.eps}
+					\caption{Fitbitの着用イメージ}
+					\label{fitbit5}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm]{image/4/fitbitsync.eps}}
+					\caption{Fitbitデバイスの同期画面}
+					\label{fitbitsync}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm]{image/4/login.eps}}
+					\caption{ログインページ}
+					\label{login}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm]{image/4/mypage.eps}}
+					\caption{マイページ}
+					\label{mypage}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\section{利用手順}
+以下にLag-Fitの使用手順をまとめる.
+\begin{itembox}[l]{利用手順}
+\begin{enumerate}
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+	\item Fitbitデバイスを着用した状態(図\ref{fitbit5})で睡眠を取る.
+	\item FitbitデバイスとFitbitアプリを同期(図\ref{fitbitsync})させる. 
+	\item 自身のアカウントを用いてログインぺージ(図\ref{login})からLag-Fitにログインする.
+	\item MyPage(図\ref{mypage})から今日の睡眠評価を確認する.
+	\item ユーザはその後,以下のことを自由に行う.
+		\begin{enumerate}
+		\renewcommand{\labelenumi}{\arabic{enumi}} 
+			\item 実績ページから過去の睡眠データを振り返る.
+			\item ランキングページから自分のスコアがどの程度の順位であるかを確認する.
+			\item チーム戦ページから自分のチームと相手チームの得点を確認する.
+			\item 設定ページから目標睡眠時間を変更する.
+		\end{enumerate}
+\end{enumerate}
+\end{itembox}
+
+また,利用手順3において2回目以降のログインではiOS上に保存したユーザ情報を用いて自動でログインする.
+実績ページ,ランキングページ,チーム戦,設定ページについては後述する.
+
+\section{画面構成}
+本説では,Lag-Fitの画面構成とその説明および該当するゲーミフィケーション手法について述べる.
+
+ステータスバー(図\ref{status})ではユーザの基本情報およびユーザレベルを見る事が可能である.
+ゲーミフィケーション手法の「レベルアップ」に該当する.
+ユーザのプロフィール写真,ユーザネーム,ユーザレベル,次のレベルまでの必要ポイントが表示される.
+このユーザレベルは睡眠のデータを保存するたびに点数に応じて経験値としてたまり,40点たまるごとにユーザレベルが上がる.
+ユーザレベルを設けることで当アプリケーションへの愛着を持たせ,行動変容し続けることが期待される.
+
+実績ページ(図\ref{zisseki})では個人の過去一ヶ月分の睡眠データを見る事が可能である.
+ゲーミフィケーション手法の「バッジと実績」に該当する.
+一日ごとに日付,睡眠時間,就寝時間,起床時間,点数,王冠バッチがTable形式で表示される.
+王冠バッチは80点以上の時に金色になり,80点未満の場合の時に銀色になる.
+バッジを設けることでユーザの高得点への意識が高くなることが期待できる.
+
+ランキングページ(図\ref{ranking})ではその週(月曜日から日曜日まで)の全ユーザの合計スコアをランキング形式で見る事が可能である.
+ゲーミフィケーション手法の「スコアとランキング」と「競争」がこれに該当する.
+各ユーザごとにプロフィール写真,ユーザネーム,点数,一日あたりの点数,順位がTable形式で表示される.
+その週の終了後に上位だった人にそれぞれ1位300点,2位200点,3位100点を与える.
+ランキング形式で競わせることでユーザの高得点への意識や毎日の睡眠データの記録を促すことが期待される.
+また他者へ点数を公開することは実世界で評価する,されることに繋がることが期待できる.
+ 
+チーム戦ページ(図\ref{team})ではユーザを2チームにわけ,その週(月曜日から日曜日まで)の各チームの合計点を表示し, 別チームと競争を促す.
+ゲーミフィケーション手法の「競争」がこれに該当する.
+本研究では,チーム内は同じ部活動や研究室などの所属が同じで,上司部下の関係を考慮しない同学年である.また別チームは面識のない他人である.
+各チームの所属団体,合計点数,チームに所属するユーザのプロフィール写真が表示される. 
+その週の終了後に勝利したチームのユーザ全員に200点を与える.
+自チームの点数が低いユーザが周りに促進されることによって点数を高めるのが期待される.
+
+設定ページ(図\ref{config})では主にユーザの目標時間を変更できる.
+目標時間は以下の2つの質問を答えることで算出される.
+\begin{enumerate}
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+	\item 平日の大体の就寝時刻と起床時刻を教えてください.目覚ましなどを使って起きる必要がある日を平日とします.
+	\item 問1に加え,平日の睡眠時間はどの程度足りていないと思いますか?
+\end{enumerate}
+
+マニュアルページ(図\ref{manual})はLag-Fitの操作方法や計算方法,実験内容などをまとめたWebサイトである.
+ステータスバー右下の「マニュアル」ボタンをタップすると表示される.
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=70mm]{image/4/status.eps}}
+					\caption{ステータスバー}
+					\label{status}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm]{image/4/record.eps}}
+					\caption{実績ページ}
+					\label{zisseki}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm]{image/4/ranking.eps}}
+					\caption{ランキングページ}
+					\label{ranking}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm]{image/4/team.eps}}
+					\caption{チーム戦ページ}
+					\label{team}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm,height=80mm]{image/4/config.eps}}
+					\caption{設定ページ}
+					\label{config}
+  				\end{center}
+  			\end{minipage}
+
+			\begin{minipage}{0.5\hsize}
+				\begin{center}
+					\fbox{\includegraphics[width=50mm,height=80mm]{image/4/manual.eps}}
+					\caption{マニュアルページ}
+					\label{manual}
+				\end{center}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=120mm,height=100mm]{image/4/zukky_appmap.eps}
+		\caption{Lag-Fit画面遷移図}
+		\label{sysconf}
+	\end{center}
+\end{figure}
+
+%\clearpage
+
+
+\section{まとめ}
+本章では,本研究で提案する睡眠評価手法を用いて睡眠不足に対する行動変容を促すiOSアプリケーション「Lag-Fit」の説明をした.
+

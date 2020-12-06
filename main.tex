@@ -1,0 +1,66 @@
+\documentclass[report]{jsbook}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\usepackage{okumacro}
+\usepackage{fancybox,ascmac}
+\usepackage{sty/algorithm}
+\usepackage{sty/algorithmic}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{sty/jlisting}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[noreplace]{otf}
+\lstset{
+	language={Java},
+	basicstyle={\small},
+	breaklines={true},
+	frame=tRBl,
+	framesep=5pt,
+}
+
+\newcommand\figref[1]{図\ref{#1}}
+\newcommand\tabref[1]{表\ref{#1}}
+\newcommand\equref[1]{式\ref{#1}}
+
+\setcounter{tocdepth}{2}
+
+\begin{document}
+\input{header/title.tex}
+\frontmatter
+\input{header/abstract_ja.tex}
+
+\setlength{\baselineskip}{13pt}
+\input{header/abstract_en.tex}
+
+\setlength{\baselineskip}{16pt}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+\input{sections/introduction.tex}
+%\input{sections/purpose.tex}
+\input{sections/problem.tex}
+\input{sections/related.tex}
+\input{sections/approach.tex}
+\input{sections/implementation.tex}
+\input{sections/experiment.tex}
+\input{sections/evaluation.tex}
+\input{sections/conclusion.tex}
+
+% footer
+\input{footer/acknowledgement.tex}
+
+\bibliographystyle{junsrt}
+\bibliography{ref.bib}
+
+\appendix
+% \def\thesection{付録\Alph{section}}
+% \input{append}
+
+\end{document}
