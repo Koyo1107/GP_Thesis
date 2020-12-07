@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  6 DEC 2020 15:20
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  7 DEC 2020 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,37 +475,32 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 ) (./sections/implementation.tex) (./sections/experiment.tex [7] [8]
 第5章
 
-LaTeX Warning: Reference `fig:preex' on page 9 undefined on input line 15.
+LaTeX Warning: Reference `fig:preex' on page 9 undefined on input line 21.
 
 
-LaTeX Warning: Reference `fig:preex' on page 9 undefined on input line 16.
+LaTeX Warning: Reference `fig:preex' on page 9 undefined on input line 22.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 25.
+(Font)              scaled to size 8.64899pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 25.
+(Font)              scaled to size 8.64899pt on input line 30.
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 21--35
-[][]$[]$[] []$[]$[] 
- []
-
 [9
 
-]) (./sections/evaluation.tex [10]
+]) (./sections/evaluation.tex [10] [11]
 第6章
-) (./sections/conclusion.tex [11
+) (./sections/conclusion.tex [12
 
 ]
 第7章
-) (./footer/acknowledgement.tex [12
+) (./footer/acknowledgement.tex [13
 
 ])
 No file main.bbl.
-[13
+[14
 
 ] (./main.aux)
 
@@ -519,6 +514,6 @@ Here is how much of TeX's memory you used:
  9576 multiletter control sequences out of 15000+600000
  18359 words of font info for 87 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,5n,40p,638b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,5n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (19 pages, 48356 bytes).
+Output written on main.dvi (20 pages, 51432 bytes).
