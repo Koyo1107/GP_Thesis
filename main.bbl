@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{全邦釘2017ディープラーニングおよび}
 全邦釘, 嶋本ゆり, 大窪和明, 三輪知寛, 大賀水田生.
@@ -12,11 +12,24 @@
 \newblock Deepcounter: 深層学習を用いた細粒度なゴミ排出量データ収集手法.
 \newblock 情報処理学会論文誌, Vol.~61, No.~1, pp. 36--48, 2020.
 
+\bibitem{進藤瞭2013車載カメラ画像を用いた対向車線の渋滞状況の把握手法}
+進藤瞭, 白石陽ほか.
+\newblock 車載カメラ画像を用いた対向車線の渋滞状況の把握手法.
+\newblock マルチメディア, 分散協調とモバイルシンポジウム 2013 論文集, Vol.
+  2013, pp. 139--146, 2013.
+
 \bibitem{zhou2017unsupervised}
 Tinghui Zhou, Matthew Brown, Noah Snavely, and David~G Lowe.
 \newblock Unsupervised learning of depth and ego-motion from video.
 \newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
   Pattern Recognition}, pp. 1851--1858, 2017.
+
+\bibitem{yin2018geonet}
+Zhichao Yin and Jianping Shi.
+\newblock Geonet: Unsupervised learning of dense depth, optical flow and camera
+  pose.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pp. 1983--1992, 2018.
 
 \bibitem{casser2019struct2depth}
 Vincent Casser, Soeren Pirk, Reza Mahjourian, and Anelia Angelova.
@@ -49,5 +62,12 @@ Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed,
 Joseph Redmon and Ali Farhadi.
 \newblock Yolov3: An incremental improvement.
 \newblock {\em arXiv}, 2018.
+
+\bibitem{laina2016deeper}
+Iro Laina, Christian Rupprecht, Vasileios Belagiannis, Federico Tombari, and
+  Nassir Navab.
+\newblock Deeper depth prediction with fully convolutional residual networks.
+\newblock In {\em 3D Vision (3DV), 2016 Fourth International Conference on},
+  pp. 239--248. IEEE, 2016.
 
 \end{thebibliography}
