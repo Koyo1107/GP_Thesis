@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  7 DEC 2020 17:49
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  7 DEC 2020 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,34 +455,25 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 [1
 
 
-]) (./sections/problem.tex [2]
+]) (./sections/related.tex [2]
 第2章
-) (./sections/related.tex [3
+[3
 
-]
+]) (./sections/approach.tex [4]
 第3章
-[4
-
-]) (./sections/approach.tex [5]
-第4章
-[6
-
-]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 35.
+(Font)              scaled to size 11.53198pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 35.
-) (./sections/implementation.tex) (./sections/experiment.tex [7] [8]
-第5章
+(Font)              scaled to size 11.53198pt on input line 7.
+[5
 
-LaTeX Warning: Citation `laina2016deeper' on page 9 undefined on input line 21.
+] [6]) (./sections/implementation.tex) (./sections/experiment.tex [7]
+第4章
 
-
-
-LaTeX Warning: Reference `fig:preex' on page 9 undefined on input line 22.
+LaTeX Warning: Reference `fig:preex' on page 8 undefined on input line 22.
 
 
-LaTeX Warning: Reference `fig:preex' on page 9 undefined on input line 23.
+LaTeX Warning: Reference `fig:preex' on page 8 undefined on input line 23.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
@@ -492,17 +483,17 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 31.
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[9
+[8
 
-] [10]) (./sections/evaluation.tex [11]
-第6章
-) (./sections/conclusion.tex [12
+] [9]) (./sections/evaluation.tex [10]
+第5章
+) (./sections/conclusion.tex [11
 
 ]
-第7章
-) (./footer/acknowledgement.tex [13
+第6章
+) (./footer/acknowledgement.tex [12
 
-]) (./main.bbl [14
+]) (./main.bbl [13
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -513,23 +504,20 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 24.
-) [15
+) [14
 
 ] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5730 strings out of 493223
- 72709 string characters out of 6144415
- 354014 words of memory out of 5000000
+ 5727 strings out of 493223
+ 72660 string characters out of 6144415
+ 355014 words of memory out of 5000000
  9591 multiletter control sequences out of 15000+600000
  18359 words of font info for 87 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,5n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (22 pages, 56180 bytes).
+Output written on main.dvi (21 pages, 56400 bytes).
