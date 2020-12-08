@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  7 DEC 2020 18:50
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  8 DEC 2020 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,7 +426,13 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [4] (./main.lof)
+ [4] (./main.lof
+Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
+ [][] [] \JY1/mc/m/n/10 実証実験中のプロ ーブ情報を利用したシステム \OT1/cmr/m/
+n/10 (https://response.jp/article/2020/03/05/332331.html) [][]  
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -455,45 +461,54 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 [1
 
 
-]) (./sections/related.tex [2]
+]) (./sections/problem.tex [2]
 第2章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 10.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 10.
+File: figs/vics.png Graphic file (type bmp)
+<figs/vics.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 22.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 22.
 [3
 
-]) (./sections/approach.tex [4]
+]
+File: figs/probe.jpg Graphic file (type bmp)
+<figs/probe.jpg>
+ [4]) (./sections/related.tex [5]
 第3章
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 7.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 7.
-[5
+[6
 
-] [6]) (./sections/implementation.tex) (./sections/experiment.tex [7]
+]) (./sections/approach.tex [7]
 第4章
+[8
 
-LaTeX Warning: Reference `fig:preex' on page 8 undefined on input line 22.
+] [9]) (./sections/implementation.tex) (./sections/experiment.tex [10]
+第5章
+
+LaTeX Warning: Reference `fig:preex' on page 11 undefined on input line 22.
 
 
-LaTeX Warning: Reference `fig:preex' on page 8 undefined on input line 23.
+LaTeX Warning: Reference `fig:preex' on page 11 undefined on input line 23.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 31.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 31.
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[8
+[11
 
-] [9]) (./sections/evaluation.tex [10]
-第5章
-) (./sections/conclusion.tex [11
+] [12]) (./sections/evaluation.tex [13]
+第6章
+) (./sections/conclusion.tex [14
 
 ]
-第6章
-) (./footer/acknowledgement.tex [12
+第7章
+) (./footer/acknowledgement.tex [15
 
-]) (./main.bbl [13
+]) (./main.bbl [16
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -504,20 +519,23 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 24.
-) [14
+) [17
 
 ] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 5727 strings out of 493223
- 72660 string characters out of 6144415
- 355014 words of memory out of 5000000
- 9591 multiletter control sequences out of 15000+600000
+ 5739 strings out of 493223
+ 72838 string characters out of 6144415
+ 354014 words of memory out of 5000000
+ 9597 multiletter control sequences out of 15000+600000
  18359 words of font info for 87 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,5n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (21 pages, 56400 bytes).
+Output written on main.dvi (24 pages, 65224 bytes).
