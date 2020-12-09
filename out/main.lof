@@ -4,11 +4,12 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{4}% 
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}}{8}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces YOLOの物体検出システム}}{8}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces YOLOのネットワーク構成図}}{8}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces YOLOの物体検出システム\cite {yolov3}}}{8}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces YOLOのネットワーク構成図\cite {yolov3}}}{8}% 
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces FCRN-DepthPredictionを用いた予備実験}}{13}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Google Tensorflowを用いた予備実験}}{13}% 
+\addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

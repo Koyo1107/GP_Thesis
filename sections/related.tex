@@ -47,7 +47,7 @@ Zhouらの研究以降、カメラ映像における奥行きの研究は、Zhou
 %YOLOとかの話
 物体検出を行うライブラリは様々あり、Fast R-CNNs\cite{ren2015faster}、Mask R-CNN\cite{he2017mask}、SSD\cite{liu2016ssd}といった手法が挙げられる。
 それぞれCNNと呼ばれる畳み込みネットワークを利用し物体検出を行なっている点は同じだが、CNNの層や物体検出を行う際の手法がわずかながらに異なっている。
-本研究では物体検出手法としてYOLO(You Only Look Once)\cite{yolov3}と呼ばれる物体検出手法を用いる。
+本研究では物体検出手法としてYOLO(You Only Look Once)\cite{yolov3}\figref{fig:yolo_system}\figref{fig:yolo_network}と呼ばれる物体検出手法を用いる。
 YOLOは上記の３つの手法と比較して畳み込みネットワークやニューラルネットワークがシンプルな構造になっているにもかかわらず、高い検出率を誇っている。
 また、構造が比較的シンプルなため演算処理にかかるスピードが速く、リアルタイムでの処理にも適している。
 本研究では、YOLOがMicrosoft COCO datasetを機械学習したものを利用し、ドライブレコーダーに写っている自動車、トラック、バスを主に検出させ、距離推定及びその結果からシステムの評価を行う。
@@ -65,15 +65,15 @@ YOLOは上記の３つの手法と比較して畳み込みネットワークや�
 \begin{figure}[hbtp]
   \begin{center}
     \includegraphics[width=12cm]{figs/Yolo_Detection_system.png}
-    \caption{YOLOの物体検出システム}
-    \label{fig:conversion_1}
+    \caption{YOLOの物体検出システム\cite{yolov3}}
+    \label{fig:yolo_system}
   \end{center}
 \end{figure}
 
 \begin{figure}[hbtp]
   \begin{center}
     \includegraphics[width=12cm]{figs/yolo_architecture.png}
-    \caption{YOLOのネットワーク構成図}
-    \label{fig:conversion_2}
+    \caption{YOLOのネットワーク構成図\cite{yolov3}}
+    \label{fig:yolo_network}
   \end{center}
  \end{figure}

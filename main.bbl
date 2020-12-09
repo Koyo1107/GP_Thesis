@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{yolov3}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em arXiv}, 2018.
+
 \bibitem{全邦釘2017ディープラーニングおよび}
 全邦釘, 嶋本ゆり, 大窪和明, 三輪知寛, 大賀水田生.
 \newblock ディープラーニングおよび random forest
@@ -57,11 +62,6 @@ Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed,
 \newblock Ssd: Single shot multibox detector.
 \newblock In {\em European conference on computer vision}, pp. 21--37.
   Springer, 2016.
-
-\bibitem{yolov3}
-Joseph Redmon and Ali Farhadi.
-\newblock Yolov3: An incremental improvement.
-\newblock {\em arXiv}, 2018.
 
 \bibitem{laina2016deeper}
 Iro Laina, Christian Rupprecht, Vasileios Belagiannis, Federico Tombari, and

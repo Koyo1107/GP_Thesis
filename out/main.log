@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  9 DEC 2020 16:58
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  9 DEC 2020 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,40 +451,43 @@ File: figs/yolo_architecture.png Graphic file (type bmp)
 第4章
 [9
 
-] [10]) (./sections/implementation.tex) (./sections/experiment.tex [11]
+] [10]) (./sections/implementation.tex [11]
 第5章
 
-LaTeX Warning: Reference `fig:preex' on page 12 undefined on input line 22.
+LaTeX Warning: Reference `fig:preex' on page 12 undefined on input line 11.
 
 
-LaTeX Warning: Reference `fig:preex' on page 12 undefined on input line 23.
+LaTeX Warning: Reference `fig:preex' on page 12 undefined on input line 12.
 
-[12
-
-]
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[13] [14]) (./sections/evaluation.tex [15]
+[12
+
+] [13]) (./sections/experiment.tex [14]
 第6章
-) (./sections/conclusion.tex [16
+) (./sections/evaluation.tex [15
 
 ]
 第7章
+) (./sections/conclusion.tex [16
+
+]
+第8章
 ) (./footer/acknowledgement.tex [17
 
 ]) (./main.bbl [18
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 24.
+(Font)              scaled to size 9.60999pt on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 24.
+(Font)              scaled to size 9.60999pt on input line 6.
 ) [19
 
 ] (out/main.aux)
@@ -494,11 +497,11 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  5753 strings out of 493223
- 73321 string characters out of 6144415
- 355014 words of memory out of 5000000
+ 73320 string characters out of 6144415
+ 354014 words of memory out of 5000000
  9606 multiletter control sequences out of 15000+600000
  18359 words of font info for 87 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,6n,40p,799b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,5n,40p,799b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (26 pages, 68680 bytes).
+Output written on out/main.dvi (26 pages, 70944 bytes).
