@@ -51,3 +51,29 @@ Zhouらの研究以降、カメラ映像における奥行きの研究は、Zhou
 YOLOは上記の３つの手法と比較して畳み込みネットワークやニューラルネットワークがシンプルな構造になっているにもかかわらず、高い検出率を誇っている。
 また、構造が比較的シンプルなため演算処理にかかるスピードが速く、リアルタイムでの処理にも適している。
 本研究では、YOLOがMicrosoft COCO datasetを機械学習したものを利用し、ドライブレコーダーに写っている自動車、トラック、バスを主に検出させ、距離推定及びその結果からシステムの評価を行う。
+
+\newpage
+
+\begin{figure}[htbp]
+  \begin{center}
+   \includegraphics[width=12cm]{figs/aproach_depth.png}
+  \end{center}
+  \caption{struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}
+  \label{fig:approach_depth}
+\end{figure}
+
+\begin{figure}[hbtp]
+  \begin{center}
+    \includegraphics[width=12cm]{figs/Yolo_Detection_system.png}
+    \caption{YOLOの物体検出システム}
+    \label{fig:conversion_1}
+  \end{center}
+\end{figure}
+
+\begin{figure}[hbtp]
+  \begin{center}
+    \includegraphics[width=12cm]{figs/yolo_architecture.png}
+    \caption{YOLOのネットワーク構成図}
+    \label{fig:conversion_2}
+  \end{center}
+ \end{figure}

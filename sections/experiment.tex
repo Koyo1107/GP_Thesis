@@ -24,19 +24,23 @@
 また、上段で自動車とトラックを検出し、下段の同じ位置にBBOXを出力している。
 下段のBBOX内に出力されているパラメーターは、下段BOX内のRGB値のそれぞれの値を平均した数値である。
 
+\newpage
+
 \begin{figure}[htbp]
    \begin{center}
-    \includegraphics[width=10cm]{figs/preex1.png}
+    \includegraphics[width=12cm]{figs/preex1.png}
    \end{center}
    \caption{FCRN-DepthPredictionを用いた予備実験}
    \label{fig:preex1}
 
   \begin{center}
-   \includegraphics[width=10cm]{figs/preex2.png}
+   \includegraphics[width=12cm]{figs/preex2.png}
   \end{center}
    \caption{Google Tensorflowを用いた予備実験}
    \label{fig:preex2}
  \end{figure}
+
+\newpage
 
 \subsection{予備実験 - 評価}
 ここでは、本研究における予備実験の評価について述べる。
@@ -51,6 +55,8 @@
 %距離推定システムは奥行きを手前にある物体ほど色を明るく、奥にある（カメラから距離が遠い）物体ほど暗い青色で色分けするので、このシステムで先行車の位置関係が大まかにわかることが確認できる。
 この数値の違いを評価することで先行車との距離を推定し、走行スピードを推定し、渋滞しているかどうかを機械に判断させる。
 この予備実験を生かして、本実験では動画を用いた渋滞推定を行う。
+
+\newpage
 
 \section{本実験}
 予備実験にて、本研究で使用するシステムを決定した。この項では動画を用いて実際に渋滞を推定する実験について述べる.
