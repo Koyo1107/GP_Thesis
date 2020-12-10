@@ -40,9 +40,28 @@ Zhouら\cite{zhou2017unsupervised}はセンサー情報等の教師データの�
 Zhouらのシステムは、車載動画等の連続的な画像の集まりであるデータセットを元に映像における視界の変化を元に奥行きを推定するものであった。
 Zhouらの研究以降、カメラ映像における奥行きの研究は、Zhouらの研究を元に性能向上がなされ、Yinら\cite{yin2018geonet}などによってアップデートがなされた。
 
-中でも、Googleの研究チームのCasserらが行なった研究である"Struct2Depth"\cite{casser2019struct2depth}というシステムは上記の研究と比較して精度がより向上されている。
+中でも、Googleの研究チームのCasserらが行なった研究である"Struct2Depth"\cite{casser2019struct2depth}というシステムは上記の研究と比較して精度がより向上されている\figref{fig:depth_related}。
 本研究ではStruct2Depthを利用し、車間距離を推定する。
 
+\newpage
+
+\begin{figure}[hp]
+  \begin{center}
+   \includegraphics[width=\textwidth]{figs/struct2depth_related.png}
+  \end{center}
+  \caption{struct2depthと他の研究の比較\cite{casser2019struct2depth}}
+  \label{fig:depth_related}
+\end{figure}
+
+\begin{figure}[hp]
+  \begin{center}
+   \includegraphics[width=\textwidth]{figs/aproach_depth.png}
+  \end{center}
+  \caption{struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}
+  \label{fig:approach_depth}
+\end{figure}
+
+\newpage
 \section{物体検出システムについて}
 %YOLOとかの話
 物体検出を行うライブラリは様々あり、Fast R-CNNs\cite{ren2015faster}、Mask R-CNN\cite{he2017mask}、SSD\cite{liu2016ssd}といった手法が挙げられる。
@@ -52,27 +71,18 @@ YOLOは上記の３つの手法と比較して畳み込みネットワークや�
 また、構造が比較的シンプルなため演算処理にかかるスピードが速く、リアルタイムでの処理にも適している。
 本研究では、YOLOがMicrosoft COCO datasetを機械学習したものを利用し、ドライブレコーダーに写っている自動車、トラック、バスを主に検出させ、距離推定及びその結果からシステムの評価を行う。
 
-\newpage
 
 \begin{figure}[htbp]
   \begin{center}
-   \includegraphics[width=12cm]{figs/aproach_depth.png}
-  \end{center}
-  \caption{struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}
-  \label{fig:approach_depth}
-\end{figure}
-
-\begin{figure}[hbtp]
-  \begin{center}
-    \includegraphics[width=12cm]{figs/Yolo_Detection_system.png}
+    \includegraphics[width=\textwidth]{figs/Yolo_Detection_system.png}
     \caption{YOLOの物体検出システム\cite{yolov3}}
     \label{fig:yolo_system}
   \end{center}
 \end{figure}
 
-\begin{figure}[hbtp]
+\begin{figure}[htbp]
   \begin{center}
-    \includegraphics[width=12cm]{figs/yolo_architecture.png}
+    \includegraphics[width=\textwidth]{figs/yolo_architecture.png}
     \caption{YOLOのネットワーク構成図\cite{yolov3}}
     \label{fig:yolo_network}
   \end{center}

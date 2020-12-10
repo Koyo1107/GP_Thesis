@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{casser2019struct2depth}
+Vincent Casser, Soeren Pirk, Reza Mahjourian, and Anelia Angelova.
+\newblock Depth prediction without the sensors: Leveraging structure for
+  unsupervised learning from monocular videos.
+\newblock In {\em Thirty-Third AAAI Conference on Artificial Intelligence
+  (AAAI-19)}, 2019.
+
 \bibitem{yolov3}
 Joseph Redmon and Ali Farhadi.
 \newblock Yolov3: An incremental improvement.
@@ -35,13 +42,6 @@ Zhichao Yin and Jianping Shi.
   pose.
 \newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
   Pattern Recognition}, pp. 1983--1992, 2018.
-
-\bibitem{casser2019struct2depth}
-Vincent Casser, Soeren Pirk, Reza Mahjourian, and Anelia Angelova.
-\newblock Depth prediction without the sensors: Leveraging structure for
-  unsupervised learning from monocular videos.
-\newblock In {\em Thirty-Third AAAI Conference on Artificial Intelligence
-  (AAAI-19)}, 2019.
 
 \bibitem{ren2015faster}
 Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.

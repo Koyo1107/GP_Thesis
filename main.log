@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  9 DEC 2020 21:03
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  10 DEC 2020 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,10 +433,14 @@ n/10 (https://response.jp/article/2020/03/05/332331.html) [][]
  []
 
 
-LaTeX Warning: Citation `yolov3' on page v undefined on input line 7.
+LaTeX Warning: Citation `casser2019struct2depth' on page v undefined on input l
+ine 6.
 
 
 LaTeX Warning: Citation `yolov3' on page v undefined on input line 8.
+
+
+LaTeX Warning: Citation `yolov3' on page v undefined on input line 9.
 
 )
 \tf@lof=\write5
@@ -484,120 +488,148 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 ]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
- [4]) (./sections/related.tex [5]
+ [4]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 70.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 77.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 77.
+
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 86.
+
+) (./sections/related.tex [5] [6]
 第3章
 
-LaTeX Warning: Citation `全邦釘2017ディープラーニングおよび' on page 6 undefine
+LaTeX Warning: Citation `全邦釘2017ディープラーニングおよび' on page 7 undefine
 d on input line 4.
 
 
-LaTeX Warning: Citation `三上量弘2020deepcounter' on page 6 undefined on input 
+LaTeX Warning: Citation `三上量弘2020deepcounter' on page 7 undefined on input 
 line 14.
 
 
 LaTeX Warning: Citation `進藤瞭2013車載カメラ画像を用いた対向車線の渋滞状況の把
-握手法' on page 6 undefined on input line 24.
+握手法' on page 7 undefined on input line 24.
 
-[6
+[7
 
 ]
 
-LaTeX Warning: Citation `zhou2017unsupervised' on page 7 undefined on input lin
+LaTeX Warning: Citation `zhou2017unsupervised' on page 8 undefined on input lin
 e 39.
 
 
-LaTeX Warning: Citation `yin2018geonet' on page 7 undefined on input line 41.
+LaTeX Warning: Citation `yin2018geonet' on page 8 undefined on input line 41.
 
 
-LaTeX Warning: Citation `casser2019struct2depth' on page 7 undefined on input l
+LaTeX Warning: Citation `casser2019struct2depth' on page 8 undefined on input l
 ine 43.
 
+[8]
+File: figs/struct2depth_related.png Graphic file (type bmp)
+<figs/struct2depth_related.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 52.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 52.
 
-LaTeX Warning: Citation `ren2015faster' on page 7 undefined on input line 48.
+
+LaTeX Warning: Citation `casser2019struct2depth' on page 9 undefined on input l
+ine 52.
 
 
-LaTeX Warning: Citation `he2017mask' on page 7 undefined on input line 48.
+LaTeX Warning: Citation `casser2019struct2depth' on page 9 undefined on input l
+ine 52.
 
-
-LaTeX Warning: Citation `liu2016ssd' on page 7 undefined on input line 48.
-
-
-LaTeX Warning: Citation `yolov3' on page 7 undefined on input line 50.
-
-[7]
 File: figs/aproach_depth.png Graphic file (type bmp)
 <figs/aproach_depth.png>
+[9]
+
+LaTeX Warning: Citation `ren2015faster' on page 10 undefined on input line 67.
+
+
+LaTeX Warning: Citation `he2017mask' on page 10 undefined on input line 67.
+
+
+LaTeX Warning: Citation `liu2016ssd' on page 10 undefined on input line 67.
+
+
+LaTeX Warning: Citation `yolov3' on page 10 undefined on input line 69.
+
 File: figs/Yolo_Detection_system.png Graphic file (type bmp)
 <figs/Yolo_Detection_system.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 68.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 68.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 68.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 68.
+
+LaTeX Warning: Citation `yolov3' on page 10 undefined on input line 78.
 
 
-LaTeX Warning: Citation `yolov3' on page 8 undefined on input line 68.
-
-
-LaTeX Warning: Citation `yolov3' on page 8 undefined on input line 68.
+LaTeX Warning: Citation `yolov3' on page 10 undefined on input line 78.
 
 File: figs/yolo_architecture.png Graphic file (type bmp)
 <figs/yolo_architecture.png>
 
-LaTeX Warning: Citation `yolov3' on page 8 undefined on input line 76.
+LaTeX Warning: Citation `yolov3' on page 10 undefined on input line 86.
 
 
-LaTeX Warning: Citation `yolov3' on page 8 undefined on input line 76.
+LaTeX Warning: Citation `yolov3' on page 10 undefined on input line 86.
 
-) (./sections/approach.tex [8]
+) (./sections/approach.tex [10]
 第4章
-[9
+[11
 
-] [10]) (./sections/implementation.tex [11]
+] [12]) (./sections/implementation.tex [13]
 第5章
 
-LaTeX Warning: Citation `laina2016deeper' on page 12 undefined on input line 10
+LaTeX Warning: Citation `laina2016deeper' on page 14 undefined on input line 10
 .
 
 
-LaTeX Warning: Reference `fig:preex' on page 12 undefined on input line 11.
+LaTeX Warning: Reference `fig:preex' on page 14 undefined on input line 11.
 
 
-LaTeX Warning: Reference `fig:preex' on page 12 undefined on input line 12.
+LaTeX Warning: Reference `fig:preex' on page 14 undefined on input line 12.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[12
+) (./sections/experiment.tex [14
 
-] [13]) (./sections/experiment.tex [14]
+] [15]
 第6章
-) (./sections/evaluation.tex [15
+) (./sections/evaluation.tex [16
 
 ]
 第7章
-) (./sections/conclusion.tex [16
+) (./sections/conclusion.tex [17
 
 ]
 第8章
-) (./footer/acknowledgement.tex [17
+) (./footer/acknowledgement.tex [18
 
-]) (./main.bbl [18
+]) (./main.bbl [19
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 6.
+(Font)              scaled to size 9.60999pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 6.
-) [19
+(Font)              scaled to size 9.60999pt on input line 7.
+) [20
 
 ] (./main.aux)
 
@@ -608,12 +640,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5757 strings out of 493223
- 73220 string characters out of 6144415
- 355014 words of memory out of 5000000
- 9611 multiletter control sequences out of 15000+600000
- 18948 words of font info for 90 fonts, out of 8000000 for 9000
+ 5769 strings out of 493223
+ 73456 string characters out of 6144415
+ 361014 words of memory out of 5000000
+ 9621 multiletter control sequences out of 15000+600000
+ 19728 words of font info for 94 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,5n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,9n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (26 pages, 70976 bytes).
+Output written on main.dvi (27 pages, 76212 bytes).
