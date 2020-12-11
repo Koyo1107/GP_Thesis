@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  10 DEC 2020 22:28
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  11 DEC 2020 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,7 +436,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 ]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
-[4]
+[4] [5]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 70.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
@@ -452,62 +452,69 @@ Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 86.
 
-) (./sections/related.tex [5] [6]
-第3章
-[7
 
-] [8]
+LaTeX Warning: Reference `fig:use_recoder' on page 6 undefined on input line 121.
+
+File: figs/use_driverecoder1.png Graphic file (type bmp)
+<figs/use_driverecoder1.png>
+File: figs/use_driverecorder2.png Graphic file (type bmp)
+<figs/use_driverecorder2.png>
+[6] [7]) (./sections/related.tex [8]
+第3章
+[9
+
+] [10]
 File: figs/struct2depth_related.png Graphic file (type bmp)
 <figs/struct2depth_related.png>
 File: figs/aproach_depth.png Graphic file (type bmp)
 <figs/aproach_depth.png>
-[9]
+[11]
 File: figs/Yolo_Detection_system.png Graphic file (type bmp)
 <figs/Yolo_Detection_system.png>
 File: figs/yolo_architecture.png Graphic file (type bmp)
 <figs/yolo_architecture.png>
-) (./sections/approach.tex [10]
+) (./sections/approach.tex [12]
 第4章
-[11
+[13
 
-] [12]) (./sections/implementation.tex [13]
+] [14]) (./sections/implementation.tex [15]
 第5章
 
-LaTeX Warning: Reference `fig:preex' on page 14 undefined on input line 11.
+LaTeX Warning: Reference `fig:preex' on page 16 undefined on input line 13.
 
 
-LaTeX Warning: Reference `fig:preex' on page 14 undefined on input line 12.
+LaTeX Warning: Reference `fig:preex' on page 16 undefined on input line 14.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-) (./sections/experiment.tex [14
+[16
 
-] [15]
+] [17]) (./sections/experiment.tex [18]
 第6章
-) (./sections/evaluation.tex [16
+) (./sections/evaluation.tex [19
 
 ]
 第7章
-) (./sections/conclusion.tex [17
+) (./sections/conclusion.tex [20
 
 ]
 第8章
-) (./footer/acknowledgement.tex [18
+) (./footer/acknowledgement.tex [21
 
-]) (./main.bbl [19
+]) (./main.bbl [22
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
+(Font)              scaled to size 9.60999pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
-) [20
+(Font)              scaled to size 9.60999pt on input line 13.
+) [23
 
 ] (out/main.aux)
 
@@ -515,12 +522,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5765 strings out of 493223
- 73556 string characters out of 6144415
- 361014 words of memory out of 5000000
- 9616 multiletter control sequences out of 15000+600000
+ 5776 strings out of 493223
+ 73820 string characters out of 6144415
+ 362014 words of memory out of 5000000
+ 9625 multiletter control sequences out of 15000+600000
  19139 words of font info for 91 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,9n,40p,799b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (27 pages, 76188 bytes).
+Output written on out/main.dvi (30 pages, 86732 bytes).

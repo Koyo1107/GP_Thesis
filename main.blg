@@ -1,38 +1,38 @@
-This is pBibTeX, Version 0.99d-j0.33 (TeX Live 2019)
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: junsrt.bst
 Database file #1: ref.bib
-You've used 11 entries,
+You've used 12 entries,
             2270 wiz_defined-function locations,
-            601 strings with 6208 characters,
-and the built_in function-call counts, 4598 in all, are:
-= -- 381
-> -- 143
+            605 strings with 6366 characters,
+and the built_in function-call counts, 4770 in all, are:
+= -- 392
+> -- 147
 < -- 14
-+ -- 55
-- -- 44
-* -- 227
-:= -- 544
-add.period$ -- 35
-call.type$ -- 11
-change.case$ -- 11
++ -- 57
+- -- 45
+* -- 228
+:= -- 569
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 284
-empty$ -- 435
-format.name$ -- 88
-if$ -- 1149
+cite$ -- 12
+duplicate$ -- 298
+empty$ -- 455
+format.name$ -- 90
+if$ -- 1190
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 11
-pop$ -- 87
+int.to.str$ -- 12
+missing$ -- 12
+newline$ -- 63
+num.names$ -- 12
+pop$ -- 94
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 236
+skip$ -- 246
 stack$ -- 0
 substring$ -- 312
 swap$ -- 107
@@ -41,7 +41,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 38
-width$ -- 13
-write$ -- 123
-is.kanji.str$ -- 144
+while$ -- 39
+width$ -- 14
+write$ -- 133
+is.kanji.str$ -- 152
