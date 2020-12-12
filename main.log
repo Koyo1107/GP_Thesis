@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  11 DEC 2020 17:51
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  13 DEC 2020 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,22 +432,6 @@ Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
 n/10 (https://response.jp/article/2020/03/05/332331.html) [][]  
  []
 
-
-LaTeX Warning: Citation `ministryofland' on page v undefined on input line 5.
-
-
-LaTeX Warning: Citation `ministryofland' on page v undefined on input line 6.
-
-
-LaTeX Warning: Citation `casser2019struct2depth' on page v undefined on input l
-ine 8.
-
-
-LaTeX Warning: Citation `yolov3' on page v undefined on input line 10.
-
-
-LaTeX Warning: Citation `yolov3' on page v undefined on input line 11.
-
 )
 \tf@lof=\write5
 \openout5 = `main.lof'.
@@ -480,182 +464,103 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 ]) (./sections/problem.tex [2]
 第2章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 10.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 10.
-File: figs/vics.png Graphic file (type bmp)
-<figs/vics.png>
+(Font)              scaled to size 6.72699pt on input line 18.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 22.
+(Font)              scaled to size 8.64899pt on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 22.
+(Font)              scaled to size 8.64899pt on input line 29.
 [3
 
 ]
+File: figs/vics.png Graphic file (type bmp)
+<figs/vics.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 74.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 74.
+ [4]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
- [4] [5]
-
-LaTeX Warning: Citation `ministryofland' on page 6 undefined on input line 62.
-
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 70.
+ [5]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 77.
+(Font)              scaled to size 6.72699pt on input line 113.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 77.
+(Font)              scaled to size 6.72699pt on input line 113.
+
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 86.
+(amsmath)                 on input line 122.
 
 
-LaTeX Warning: Reference `fig:use_recoder' on page 6 undefined on input line 12
-1.
+LaTeX Warning: Reference `fig:use_recoder' on page 6 undefined on input line 15
+7.
 
 File: figs/use_driverecoder1.png Graphic file (type bmp)
 <figs/use_driverecoder1.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 133.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 133.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 133.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 133.
-
-LaTeX Warning: Citation `ministryofland' on page 6 undefined on input line 133.
-
-
-
-LaTeX Warning: Citation `ministryofland' on page 6 undefined on input line 133.
-
-
 File: figs/use_driverecorder2.png Graphic file (type bmp)
 <figs/use_driverecorder2.png>
-
-LaTeX Warning: Citation `ministryofland' on page 6 undefined on input line 142.
-
-
-
-LaTeX Warning: Citation `ministryofland' on page 6 undefined on input line 142.
-
-
 [6] [7]) (./sections/related.tex [8]
 第3章
-
-LaTeX Warning: Citation `全邦釘2017ディープラーニングおよび' on page 9 undefine
-d on input line 4.
-
-
-LaTeX Warning: Citation `三上量弘2020deepcounter' on page 9 undefined on input 
-line 14.
-
 [9
 
-]
-
-LaTeX Warning: Citation `進藤瞭2013車載カメラ画像を用いた対向車線の渋滞状況の把
-握手法' on page 10 undefined on input line 25.
-
-
-LaTeX Warning: Citation `zhou2017unsupervised' on page 10 undefined on input li
-ne 40.
-
-
-LaTeX Warning: Citation `yin2018geonet' on page 10 undefined on input line 42.
-
-
-LaTeX Warning: Citation `casser2019struct2depth' on page 10 undefined on input 
-line 44.
-
-[10]
+] [10]
 File: figs/struct2depth_related.png Graphic file (type bmp)
 <figs/struct2depth_related.png>
-
-
-LaTeX Warning: Citation `casser2019struct2depth' on page 11 undefined on input 
-line 53.
-
-
-LaTeX Warning: Citation `casser2019struct2depth' on page 11 undefined on input 
-line 53.
-
 File: figs/aproach_depth.png Graphic file (type bmp)
 <figs/aproach_depth.png>
-[11]
-
-LaTeX Warning: Citation `ren2015faster' on page 12 undefined on input line 68.
-
-
-LaTeX Warning: Citation `he2017mask' on page 12 undefined on input line 68.
-
-
-LaTeX Warning: Citation `liu2016ssd' on page 12 undefined on input line 68.
-
-
-LaTeX Warning: Citation `yolov3' on page 12 undefined on input line 70.
-
+ [11]
 File: figs/Yolo_Detection_system.png Graphic file (type bmp)
 <figs/Yolo_Detection_system.png>
-
-LaTeX Warning: Citation `yolov3' on page 12 undefined on input line 79.
-
-
-LaTeX Warning: Citation `yolov3' on page 12 undefined on input line 79.
-
 File: figs/yolo_architecture.png Graphic file (type bmp)
 <figs/yolo_architecture.png>
-
-LaTeX Warning: Citation `yolov3' on page 12 undefined on input line 87.
-
-
-LaTeX Warning: Citation `yolov3' on page 12 undefined on input line 87.
-
 ) (./sections/approach.tex [12]
 第4章
 [13
 
-] [14]) (./sections/implementation.tex [15]
+] [14]
+
+LaTeX Warning: Reference `figs:system_arch' on page 15 undefined on input line 
+33.
+
+File: figs/system_buildver1.png Graphic file (type bmp)
+<figs/system_buildver1.png>
+[15]) (./sections/implementation.tex [16]
 第5章
 
-LaTeX Warning: Citation `laina2016deeper' on page 16 undefined on input line 12
-.
+LaTeX Warning: Reference `fig:preex' on page 17 undefined on input line 13.
 
 
-LaTeX Warning: Reference `fig:preex' on page 16 undefined on input line 13.
-
-
-LaTeX Warning: Reference `fig:preex' on page 16 undefined on input line 14.
+LaTeX Warning: Reference `fig:preex' on page 17 undefined on input line 14.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[16
+[17
 
-] [17]
-
-LaTeX Warning: Citation `casser2019struct2depth' on page 18 undefined on input 
-line 51.
-
-) (./sections/experiment.tex [18]
+] [18] [19]
+File: figs/miss_1.png Graphic file (type bmp)
+<figs/miss_1.png>
+File: figs/miss_2.png Graphic file (type bmp)
+<figs/miss_2.png>
+ [20]) (./sections/experiment.tex [21]
 第6章
-) (./sections/evaluation.tex [19
+) (./sections/evaluation.tex [22
 
 ]
 第7章
-) (./sections/conclusion.tex [20
+) (./sections/conclusion.tex [23
 
 ]
 第8章
-) (./footer/acknowledgement.tex [21
+) (./footer/acknowledgement.tex [24
 
-]) (./main.bbl [22
+]) (./main.bbl [25
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -666,23 +571,20 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 13.
-) [23
+ [26
 
-] (./main.aux)
+]) [27] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5780 strings out of 493223
- 73720 string characters out of 6144415
+ 5789 strings out of 493223
+ 73939 string characters out of 6144415
  362014 words of memory out of 5000000
- 9630 multiletter control sequences out of 15000+600000
- 19728 words of font info for 94 fonts, out of 8000000 for 9000
+ 9637 multiletter control sequences out of 15000+600000
+ 19139 words of font info for 91 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,9n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,9n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (30 pages, 86764 bytes).
+Output written on main.dvi (34 pages, 95868 bytes).

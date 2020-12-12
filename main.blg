@@ -3,45 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: junsrt.bst
 Database file #1: ref.bib
-You've used 12 entries,
+Warning--empty author in alma99344256104031
+Warning--empty year in alma99344256104031
+You've used 13 entries,
             2270 wiz_defined-function locations,
-            605 strings with 6366 characters,
-and the built_in function-call counts, 4770 in all, are:
-= -- 392
-> -- 147
-< -- 14
-+ -- 57
+            610 strings with 6572 characters,
+and the built_in function-call counts, 4934 in all, are:
+= -- 401
+> -- 148
+< -- 15
++ -- 58
 - -- 45
-* -- 228
-:= -- 569
-add.period$ -- 38
-call.type$ -- 12
-change.case$ -- 12
+* -- 238
+:= -- 584
+add.period$ -- 40
+call.type$ -- 13
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 298
-empty$ -- 455
+cite$ -- 15
+duplicate$ -- 313
+empty$ -- 475
 format.name$ -- 90
-if$ -- 1190
+if$ -- 1229
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 12
-newline$ -- 63
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 67
 num.names$ -- 12
-pop$ -- 94
+pop$ -- 103
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 246
+skip$ -- 256
 stack$ -- 0
 substring$ -- 312
-swap$ -- 107
-text.length$ -- 14
+swap$ -- 108
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
+warning$ -- 2
 while$ -- 39
-width$ -- 14
-write$ -- 133
-is.kanji.str$ -- 152
+width$ -- 15
+write$ -- 141
+is.kanji.str$ -- 160
+(There were 2 warnings)
