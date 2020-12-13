@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  13 DEC 2020 21:43
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  14 DEC 2020 00:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -461,7 +461,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 [1
 
 
-]) (./sections/problem.tex [2] [3]
+] [2]) (./sections/problem.tex [3]
 第2章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 19.
@@ -564,13 +564,13 @@ File: figs/miss_2.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 13.
+(Font)              scaled to size 9.60999pt on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 13.
+(Font)              scaled to size 9.60999pt on input line 14.
  [29
 
 ]) [30] (./main.aux)
@@ -579,12 +579,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5792 strings out of 493223
- 73973 string characters out of 6144415
+ 5795 strings out of 493223
+ 74013 string characters out of 6144415
  362014 words of memory out of 5000000
- 9640 multiletter control sequences out of 15000+600000
- 19139 words of font info for 91 fonts, out of 8000000 for 9000
+ 9642 multiletter control sequences out of 15000+600000
+ 19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,9n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (37 pages, 102844 bytes).
+Output written on main.dvi (37 pages, 106332 bytes).

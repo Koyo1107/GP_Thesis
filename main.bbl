@@ -3,8 +3,9 @@
 \bibitem{ministryofland}
 国土交通省~自動車局保障制度参事官室.
 \newblock
-  国土交通行政インターネットモニターアンケート　自動車用の映像記録型　ドライブレコーダー装置について.
-\newblock 国土交通省, 2020.
+  国土交通行政インターネットモニターアンケート　自動車用の映像記録型　ドライブレコーダー装置について,
+  2020.
+\newblock \url{https://www.mlit.go.jp/monitor/R1-kadai01/24.pdf}.
 
 \bibitem{casser2019struct2depth}
 Vincent Casser, Soeren Pirk, Reza Mahjourian, and Anelia Angelova.
@@ -19,12 +20,19 @@ Joseph Redmon and Ali Farhadi.
 \newblock {\em arXiv}, 2018.
 
 \bibitem{zurich}
-渋滞の定義とは。高速道路の渋滞原因は先頭？渋滞回避やハザードなどの事故対策.
-\newblock チューリッヒ保険会社, 2020.
+渋滞の定義とは。高速道路の渋滞原因は先頭？渋滞回避やハザードなどの事故対策,
+  2020.
+\newblock
+  \url{https://www.zurich.co.jp/car/useful/guide/cc-whatis-definite-trafficjam/}.
+
+\bibitem{traffic_buisiness}
+道路交通情報ビジネスの現状と今後の展望 － 中間取りまとめ －, 2001.
+\newblock
+  \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
 
 \bibitem{NEXCOeast}
-高速道路の渋滞対策.
-\newblock NEXCO東日本.
+高速道路の渋滞対策, 2018.
+\newblock \url{https://www.e-nexco.co.jp/activity/safety/detail_07.html}.
 
 \bibitem{alma99344256104031}
 交通渋滞中のドライバーの精神的ストレスおよび肉体的ストレスに対する芳香物質の影響
