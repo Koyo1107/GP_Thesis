@@ -1,18 +1,22 @@
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces VICSの仕組み(https://www.vics.or.jp/know/about/center.html)}}{3}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{4}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果(年代別)\cite {ministryofland}}}{7}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果（ブロック別）\cite {ministryofland}}}{7}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces VICSの仕組み(https://www.vics.or.jp/know/about/center.html)}}{7}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{8}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果(年代別)\cite {ministryofland}}}{10}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果（ブロック別）\cite {ministryofland}}}{10}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces struct2depthと他の研究の比較\cite {casser2019struct2depth}}}{11}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}}{11}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces YOLOの物体検出システム\cite {yolov3}}}{12}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces YOLOのネットワーク構成図\cite {yolov3}}}{12}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces struct2depthと他の研究の比較\cite {casser2019struct2depth}}}{14}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}}{14}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces YOLOの物体検出システム\cite {yolov3}}}{15}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces YOLOのネットワーク構成図\cite {yolov3}}}{15}% 
 \addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ネットワーク構成図}}{19}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces フローチャート}}{21}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces FCRN-DepthPredictionを用いた予備実験}}{17}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Google Tensorflowを用いた予備実験}}{17}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces FCRN-DepthPredictionを用いた予備実験}}{23}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Google Tensorflowを用いた予備実験}}{23}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 症例1 - 誤った検出}}{25}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 症例2 - 自動車を検出できなかった症例}}{25}% 
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

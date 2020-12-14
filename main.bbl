@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{traffic_buisiness}
+道路交通情報ビジネスの現状と今後の展望 － 中間取りまとめ －, 2001.
+\newblock
+  \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
+
 \bibitem{ministryofland}
 国土交通省~自動車局保障制度参事官室.
 \newblock
@@ -7,25 +12,8 @@
   2020.
 \newblock \url{https://www.mlit.go.jp/monitor/R1-kadai01/24.pdf}.
 
-\bibitem{casser2019struct2depth}
-Vincent Casser, Soeren Pirk, Reza Mahjourian, and Anelia Angelova.
-\newblock Depth prediction without the sensors: Leveraging structure for
-  unsupervised learning from monocular videos.
-\newblock In {\em Thirty-Third AAAI Conference on Artificial Intelligence
-  (AAAI-19)}, 2019.
-
-\bibitem{yolov3}
-Joseph Redmon and Ali Farhadi.
-\newblock Yolov3: An incremental improvement.
-\newblock {\em arXiv}, 2018.
-
-\bibitem{traffic_buisiness}
-道路交通情報ビジネスの現状と今後の展望 － 中間取りまとめ －, 2001.
-\newblock
-  \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
-
 \bibitem{zurich}
-渋滞の定義とは。高速道路の渋滞原因は先頭？渋滞回避やハザードなどの事故対策,
+渋滞の定義とは.高速道路の渋滞原因は先頭？渋滞回避やハザードなどの事故対策,
   2020.
 \newblock
   \url{https://www.zurich.co.jp/car/useful/guide/cc-whatis-definite-trafficjam/}.
@@ -71,6 +59,13 @@ Zhichao Yin and Jianping Shi.
 \newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
   Pattern Recognition}, pp. 1983--1992, 2018.
 
+\bibitem{casser2019struct2depth}
+Vincent Casser, Soeren Pirk, Reza Mahjourian, and Anelia Angelova.
+\newblock Depth prediction without the sensors: Leveraging structure for
+  unsupervised learning from monocular videos.
+\newblock In {\em Thirty-Third AAAI Conference on Artificial Intelligence
+  (AAAI-19)}, 2019.
+
 \bibitem{ren2015faster}
 Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
 \newblock Faster r-cnn: Towards real-time object detection with region proposal
@@ -90,6 +85,11 @@ Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed,
 \newblock Ssd: Single shot multibox detector.
 \newblock In {\em European conference on computer vision}, pp. 21--37.
   Springer, 2016.
+
+\bibitem{yolov3}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em arXiv}, 2018.
 
 \bibitem{laina2016deeper}
 Iro Laina, Christian Rupprecht, Vasileios Belagiannis, Federico Tombari, and

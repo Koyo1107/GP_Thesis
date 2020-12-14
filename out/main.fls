@@ -163,15 +163,17 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT sections/problem.tex
 INPUT sections/problem.tex
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT figs/vics.png
 INPUT extractbb -B cropbox -O figs/vics.png
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT figs/probe.jpg
 INPUT extractbb -B cropbox -O figs/probe.jpg
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
@@ -194,12 +196,20 @@ INPUT figs/yolo_architecture.png
 INPUT extractbb -B cropbox -O figs/yolo_architecture.png
 INPUT sections/approach.tex
 INPUT sections/approach.tex
+INPUT figs/system_buildver1.png
+INPUT extractbb -B cropbox -O figs/system_buildver1.png
+INPUT figs/gp2_flowchart.png
+INPUT extractbb -B cropbox -O figs/gp2_flowchart.png
 INPUT sections/implementation.tex
 INPUT sections/implementation.tex
 INPUT figs/preex1.png
 INPUT extractbb -B cropbox -O figs/preex1.png
 INPUT figs/preex2.png
 INPUT extractbb -B cropbox -O figs/preex2.png
+INPUT figs/miss_1.png
+INPUT extractbb -B cropbox -O figs/miss_1.png
+INPUT figs/miss_2.png
+INPUT extractbb -B cropbox -O figs/miss_2.png
 INPUT sections/experiment.tex
 INPUT sections/experiment.tex
 INPUT sections/evaluation.tex
@@ -210,4 +220,5 @@ INPUT footer/acknowledgement.tex
 INPUT footer/acknowledgement.tex
 INPUT main.bbl
 INPUT main.bbl
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT out/main.aux

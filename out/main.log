@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  11 DEC 2020 17:50
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  14 DEC 2020 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,122 +412,141 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
 [1
 
 
-]) (./sections/problem.tex [2]
-第2章
+]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 10.
+(Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 10.
+(Font)              scaled to size 13.83836pt on input line 4.
+[2] [3]) (./sections/problem.tex [4]
+第2章
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+[5
+
+] [6]
 File: figs/vics.png Graphic file (type bmp)
 <figs/vics.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 22.
+(Font)              scaled to size 8.64899pt on input line 80.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 22.
-[3
-
-]
+(Font)              scaled to size 8.64899pt on input line 80.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 96.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 96.
+[7]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
-[4] [5]
+[8]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 70.
+(Font)              scaled to size 6.72699pt on input line 128.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 77.
+(Font)              scaled to size 6.72699pt on input line 135.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 77.
+(Font)              scaled to size 6.72699pt on input line 135.
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 86.
+(amsmath)                 on input line 144.
 
 
-LaTeX Warning: Reference `fig:use_recoder' on page 6 undefined on input line 121.
+LaTeX Warning: Reference `fig:use_recoder' on page 9 undefined on input line 179.
 
 File: figs/use_driverecoder1.png Graphic file (type bmp)
 <figs/use_driverecoder1.png>
 File: figs/use_driverecorder2.png Graphic file (type bmp)
 <figs/use_driverecorder2.png>
-[6] [7]) (./sections/related.tex [8]
+[9] [10]) (./sections/related.tex [11]
 第3章
-[9
+[12
 
-] [10]
+] [13]
 File: figs/struct2depth_related.png Graphic file (type bmp)
 <figs/struct2depth_related.png>
 File: figs/aproach_depth.png Graphic file (type bmp)
 <figs/aproach_depth.png>
-[11]
+[14]
 File: figs/Yolo_Detection_system.png Graphic file (type bmp)
 <figs/Yolo_Detection_system.png>
 File: figs/yolo_architecture.png Graphic file (type bmp)
 <figs/yolo_architecture.png>
-) (./sections/approach.tex [12]
+) (./sections/approach.tex [15] [16]
 第4章
-[13
+[17
 
-] [14]) (./sections/implementation.tex [15]
+] [18]
+File: figs/system_buildver1.png Graphic file (type bmp)
+<figs/system_buildver1.png>
+[19]
+File: figs/gp2_flowchart.png Graphic file (type bmp)
+<figs/gp2_flowchart.png>
+) (./sections/implementation.tex [20] [21]
 第5章
 
-LaTeX Warning: Reference `fig:preex' on page 16 undefined on input line 13.
+LaTeX Warning: Reference `fig:preex' on page 22 undefined on input line 13.
 
 
-LaTeX Warning: Reference `fig:preex' on page 16 undefined on input line 14.
+LaTeX Warning: Reference `fig:preex' on page 22 undefined on input line 14.
 
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[16
+[22
 
-] [17]) (./sections/experiment.tex [18]
+] [23] [24]
+File: figs/miss_1.png Graphic file (type bmp)
+<figs/miss_1.png>
+File: figs/miss_2.png Graphic file (type bmp)
+<figs/miss_2.png>
+[25] [26]) (./sections/experiment.tex [27]
 第6章
-) (./sections/evaluation.tex [19
+) (./sections/evaluation.tex [28
 
 ]
 第7章
-) (./sections/conclusion.tex [20
+) (./sections/conclusion.tex [29
 
 ]
 第8章
-) (./footer/acknowledgement.tex [21
+) (./footer/acknowledgement.tex [30
 
-]) (./main.bbl [22
+]) (./main.bbl [31
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 13.
+(Font)              scaled to size 9.60999pt on input line 52.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 13.
-) [23
+(Font)              scaled to size 9.60999pt on input line 52.
+[32
 
-] (out/main.aux)
+]) [33] (out/main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5776 strings out of 493223
- 73820 string characters out of 6144415
+ 5815 strings out of 493223
+ 74520 string characters out of 6144415
  362014 words of memory out of 5000000
- 9625 multiletter control sequences out of 15000+600000
- 19139 words of font info for 91 fonts, out of 8000000 for 9000
+ 9656 multiletter control sequences out of 15000+600000
+ 19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,9n,40p,799b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (30 pages, 86732 bytes).
+Output written on out/main.dvi (40 pages, 116736 bytes).
