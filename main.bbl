@@ -19,16 +19,16 @@ Joseph Redmon and Ali Farhadi.
 \newblock Yolov3: An incremental improvement.
 \newblock {\em arXiv}, 2018.
 
+\bibitem{traffic_buisiness}
+道路交通情報ビジネスの現状と今後の展望 － 中間取りまとめ －, 2001.
+\newblock
+  \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
+
 \bibitem{zurich}
 渋滞の定義とは。高速道路の渋滞原因は先頭？渋滞回避やハザードなどの事故対策,
   2020.
 \newblock
   \url{https://www.zurich.co.jp/car/useful/guide/cc-whatis-definite-trafficjam/}.
-
-\bibitem{traffic_buisiness}
-道路交通情報ビジネスの現状と今後の展望 － 中間取りまとめ －, 2001.
-\newblock
-  \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
 
 \bibitem{NEXCOeast}
 高速道路の渋滞対策, 2018.
