@@ -210,8 +210,35 @@ INPUT figs/miss_1.png
 INPUT extractbb -B cropbox -O figs/miss_1.png
 INPUT figs/miss_2.png
 INPUT extractbb -B cropbox -O figs/miss_2.png
+INPUT figs/pre1_after.png
+INPUT extractbb -B cropbox -O figs/pre1_after.png
+INPUT figs/pre1_after2.png
+INPUT extractbb -B cropbox -O figs/pre1_after2.png
+INPUT figs/sumple/4m_01.png
+INPUT extractbb -B cropbox -O figs/sumple/4m_01.png
+INPUT figs/sumple/5m_02.png
+INPUT extractbb -B cropbox -O figs/sumple/5m_02.png
+INPUT figs/sumple/6m_01.png
+INPUT extractbb -B cropbox -O figs/sumple/6m_01.png
+INPUT figs/sumple/4m_02mean.png
+INPUT extractbb -B cropbox -O figs/sumple/4m_02mean.png
+INPUT figs/sumple/5m_02mean.png
+INPUT extractbb -B cropbox -O figs/sumple/5m_02mean.png
+INPUT figs/sumple/6m_01mean.png
+INPUT extractbb -B cropbox -O figs/sumple/6m_01mean.png
+INPUT figs/sumple/4m_02max.png
+INPUT extractbb -B cropbox -O figs/sumple/4m_02max.png
+INPUT figs/sumple/5m_02max.png
+INPUT extractbb -B cropbox -O figs/sumple/5m_02max.png
+INPUT figs/sumple/6m_01max.png
+INPUT extractbb -B cropbox -O figs/sumple/6m_01max.png
 INPUT sections/experiment.tex
 INPUT sections/experiment.tex
+INPUT figs/ex01_01.png
+INPUT extractbb -B cropbox -O figs/ex01_01.png
+INPUT figs/ex01_02.png
+INPUT extractbb -B cropbox -O figs/ex01_02.png
+INPUT figs/ex01_01.png
 INPUT sections/evaluation.tex
 INPUT sections/evaluation.tex
 INPUT sections/conclusion.tex

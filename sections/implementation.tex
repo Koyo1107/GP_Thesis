@@ -53,14 +53,12 @@
 予備実験1では使用した二つのライブラリ（物体検出ライブラリと深度推定ライブラリ）はどちらも画像のデーターを中間ファイルを通して処理していた.
 しかし,動画を使った画像処理をこなうためには,中間ファイルを経由しての処理は余分な処理を増やしてしまい,処理量と処理時間がかかってしまう問題がある.
 そのため,今後は中間ファイルを経由することなくデータをやり取りするように実行した.
-その際に,深度推定ライブラリ(struct2depth)に合わせて画像サイズを416 * 128の半分である 218 * 64サイズに圧縮して処理するよう実装した.
-しかし,画像サイズが圧縮されたため,物体検出ライブラリでの誤検出や検出できないといった症例が起きた.
+その際に,深度推定ライブラリ(struct2depth)に合わせて画像サイズを416 * 128の高さの半分である 416 * 64サイズに圧縮して処理するよう実装した.
+しかし,画像サイズが圧縮されたため,物体検出ライブラリでの誤検出や検出できないといった問題が起きた.
 
 \subsection{症例}
 画像を圧縮してから検出を行った際に起きたミスとしては２つあり,それぞれ誤検出と検出できないという症例である.
 その検出結果を\figref{fig:miss1}と\figref{fig:miss2}に示す.
-考えられる原因は元の画像を小さく圧縮したのに加え,縦横比を圧縮してしまったためである.
-
 
 % --------------------------------------------------
 \newpage
@@ -83,29 +81,181 @@
 \newpage
 % ---------------------------------------------------
 
-\subsection{症例の解決}
-物体検出ライブラリの誤検出を防ぐために,以下のような対策を行った.
-まず,物体検出ライブラリへの影響を少なくするために,画像の圧縮を減らした.（まだやってないっす）
+\subsection{解決アプローチ}
+症例の原因は元の深度推定ライブラリに合わせて画像を圧縮したため、物体検出システムがうまく機能しなかったためだと考えられる。
+問題の解決のため、画像圧縮を避けて画像サイズを416 * 256のまま処理できるように改良した。
+その結果、症例で見られるような誤検出や自動車を検出できないといった症例はほとんど見られなくなった。
+また、信号機や建物等、渋滞の推定のために必要のない物体を検出しないように、検出物体を自動車類（車、バス、トラック）に絞った。
+その実装したプログラムを同じ画像フレームを用いて実験した結果を以下に示す。
 
+% --------------------------------------------------
+\begin{figure}[htbp]
+  \begin{minipage}{0.5\hsize}
+   \begin{center}
+    \includegraphics[width=7cm]{figs/pre1_after.png}
+   \end{center}
+   \caption{症例１の解決}
+   \label{fig:pre2after1}
+  \end{minipage}
+  \begin{minipage}{0.5\hsize}
+  \begin{center}
+   \includegraphics[width=7cm]{figs/pre1_after2.png}
+  \end{center}
+   \caption{症例２の解決}
+   \label{fig:pre2after2}
+  \end{minipage}
+ \end{figure}
+
+% ---------------------------------------------------
+\figref{fig:miss1}と\figref{pre2after1}、および\figref{fig:miss2}と\figref{pre2after2}を比較すると、画像の圧縮を抑えた分、誤検出や検出できていない問題が大幅に改善できていることがわかる。
+この予備実験２の結果を踏まえて、今後使用する映像圧縮サイズは416 * 256サイズとし、最終的に出力されるサイズはstrct2depthのデーターを加えた416 * 512サイズとする。
 
 \newpage
-
 \section{予備実験3 - 評価方法の決定}
 ここでは3つめに行った予備実験について述べる.
 \subsection{実験内容}
 この予備実験は,本研究における渋滞の評価の基準を決める実験である.
 本研究にて使用する深度推定システム(struct2depth)\cite{casser2019struct2depth}は奥行きを推定するシステムだが,\figref{fig:preex2}の通り,結果は色情報でしかわからず,具体的にカメラからどれだけの距離があるのかが不明である.
 そのためこの予備実験２では渋滞評価のために出力された色データーから渋滞の基準を決める実験を行う.
+本研究では渋滞を車間距離を利用して推定する手法をとっているため、車間距離によって車のスピードや渋滞がどのように変化するかを参考にする。
+基本的に車間距離と速度の関係は一般道と高速道路で異なる。
+高速道路においては警視庁指示要項によると走行中の車間距離は「速度の２乗/100」をおおよその安全追随距離としている\cite{highway}。
+この場合、時速80kmで走っている場合、安全な車間距離は64mとなる。
+これに対して高速道路において渋滞している場合の速度は、渋滞の定義を参照すると安全な車間距離は最大で16mとなっている。
+しかし、一般道での車間距離は異なる。信号待ち等での停車中の車間距離はトヨタのwebサイトによるとおよそ車一台分、4〜5mとされている\cite{toyota_web}。
+よってこの予備実験においては実際に車間距離が4m,5m,6mの時にstruct2depthにおける値がどのように変化するかを調べ、評価基準を決める。
+
 
 \subsection{使用するデーター}
 ここでは予備実験２にて扱うデーターについて述べる.
+この予備実験においては実際に車間距離を4m, 5m, 6mのそれぞれにおいて運転席から撮影した映像を利用する。
+その際、自動車のフロントガラスにおいて様々な場所から撮影した。以下にサンプルを示す。
 
-\subsection{結果}
-ここでは予備実験２における結果について述べる.
+% --------------------------------------------------
 
-\subsection{評価}
-ここでは予備実験２の実験結果をもとに評価を行う
+\begin{figure}[htbp]
+  \begin{tabular}{c}
+    \begin{minipage}{0.33\hsize}
+      \begin{center}
+   \includegraphics[width=4.5cm]{figs/sumple/4m_01.png}
+    \end{center}
+  \caption{車間距離4m}
+  \label{fig:sumple4}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/sumple/5m_02.png}
+  \end{center}
+  \caption{車間距離5m}
+  \label{fig:sumple5}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/sumple/6m_01.png}
+  \end{center}
+  \caption{車間距離6m}
+  \label{fig:sumple6}
+\end{minipage}
+\end{tabular}
+\end{figure}
+
+% ---------------------------------------------------
+\subsection{実験方法}
+ここでは予備実験３で行った実験方法について述べる。
+上記の項で示したサンプルデーターをstruct2depth及びYoloシステムを利用して、それぞれの距離においてstrct2depthの数値がどのように変わるかを調べた。
+その際、OpenCVの色情報取得システムを利用し、また検出されたBOXの中においてRGB値それぞれの最大値と平均値を比較しどちらを利用すると良いかについても調べた。
+その結果の一部を以下に示す。
+
+% ------------------------------------------------------------
+
+\begin{figure}[htbp]
+  \begin{tabular}{c}
+    \begin{minipage}{0.33\hsize}
+      \begin{center}
+   \includegraphics[width=4.5cm]{figs/sumple/4m_02mean.png}
+    \end{center}
+  \caption{車間距離4m時の平均値}
+  \label{fig:sumple4mean}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/sumple/5m_02mean.png}
+  \end{center}
+  \caption{車間距離5m時の平均値}
+  \label{fig:sumple5mean}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/sumple/6m_01mean.png}
+  \end{center}
+  \caption{車間距離6m時の平均値}
+  \label{fig:sumple6mean}
+\end{minipage}
+\end{tabular}
+\end{figure}
+
+% ------------------------------------------------------------
+
+\begin{figure}[htbp]
+  \begin{tabular}{c}
+    \begin{minipage}{0.33\hsize}
+      \begin{center}
+   \includegraphics[width=4.5cm]{figs/sumple/4m_02max.png}
+    \end{center}
+  \caption{車間距離4m時の最大値}
+  \label{fig:sumple4max}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/sumple/5m_02max.png}
+  \end{center}
+  \caption{車間距離5m時の最大値}
+  \label{fig:sumple5max}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/sumple/6m_01max.png}
+  \end{center}
+  \caption{車間距離6m時の最大値}
+  \label{fig:sumple6max}
+\end{minipage}
+\end{tabular}
+\end{figure}
+
+% ---------------------------------------------------
+
+また、画像の中のR値とG値を改めて以下に表にまとめる。その際、まとめる数値は画面中央に近い自動車の検出された値とする。
+
+% ----------------------------------------------------
+\begin{table}[htbp]
+  \centering
+  \begin{scriptsize}
+  \begin{tabular}{ccccccc}
+  \toprule
+& & 平均値 & 最大値 & & 平均値 & 最大値 \\
+  \midrule
+4m & R値 & 226.75 & 253.00 & G値 & {\bf129.54} & 203.00 \\
+5m & R値 & 213.53 & 249.00 & G値 & {\bf 110.19} & 153.00 \\
+6m & R値 & 201.77 & 253.00 & G値 & {\bf 97.33} & 201.00\\
+  \bottomrule
+  \end{tabular}
+  \end{scriptsize}
+  \caption{距離別の平均値と最大値}
+  \label{tab:mean_max}
+\end{table}
+% ------------------------------------------------------
+
+\subsection{評価基準の作成}
+\tabref{tab:mean_max}からわかることはR値は平均値と最大値のどちらにおいても距離との相関関係は薄いが、G値の特に平均値は距離が近くなるにつれて値が大きくなる傾向があるということである。
+この実験結果をもとに、今後の実験においてはG値の平均値を用い、また予備実験３の実験内容の項で述べた通り、車間距離５mを基準とし、G値が100を下回った際に渋滞していると判断する。
 
 \section{まとめ}
 本章では,本研究において実装したシステムに関して行なった予備実験について述べた.
+予備実験では使用する深度推定ライブラリの決定、画像圧縮問題の解決および評価基準の決定を行った。
 次章では本研究における本実験について述べる.
