@@ -47,12 +47,10 @@
 \contentsline {section}{\numberline {6.1}実験１ドライブレコーダー映像を利用した実験}{30}% 
 \contentsline {subsection}{\numberline {6.1.1}実験内容}{30}% 
 \contentsline {subsection}{\numberline {6.1.2}使用したデータセット}{30}% 
-\contentsline {section}{\numberline {6.2}実験結果と課題}{30}% 
-\contentsline {subsection}{\numberline {6.2.1}隣の車線の車を検出してしまう問題}{31}% 
-\contentsline {subsection}{\numberline {6.2.2}解決アプローチ}{31}% 
+\contentsline {section}{\numberline {6.2}実験結果と課題}{31}% 
+\contentsline {subsection}{\numberline {6.2.1}解決アプローチ}{31}% 
 \contentsline {section}{\numberline {6.3}実験２}{31}% 
 \contentsline {section}{\numberline {6.4}実験結果}{31}% 
 \contentsline {chapter}{\numberline {第7章}評価}{32}% 
 \contentsline {section}{\numberline {7.1}考察}{32}% 
 \contentsline {chapter}{\numberline {第8章}結論}{33}% 
-\contentsline {chapter}{参考文献}{35}% 

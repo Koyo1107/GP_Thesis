@@ -238,7 +238,8 @@ INPUT figs/ex01_01.png
 INPUT extractbb -B cropbox -O figs/ex01_01.png
 INPUT figs/ex01_02.png
 INPUT extractbb -B cropbox -O figs/ex01_02.png
-INPUT figs/ex01_01.png
+INPUT figs/ex01_03.png
+INPUT extractbb -B cropbox -O figs/ex01_03.png
 INPUT sections/evaluation.tex
 INPUT sections/evaluation.tex
 INPUT sections/conclusion.tex

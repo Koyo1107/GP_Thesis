@@ -29,8 +29,8 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces 車間距離5m時の最大値}}{28}% 
 \contentsline {figure}{\numberline {5.15}{\ignorespaces 車間距離6m時の最大値}}{28}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 結果１ 対向車線の車を検出し、渋滞だと判断してしまう。}}{31}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 結果２ 隣の車線の自動車を検出し、渋滞だと判断してしまう。}}{31}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 結果3 道路の脇に停車しているトラックを検出し、渋滞だと判断してしまう.}}{31}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 結果1}}{31}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 結果2}}{31}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 結果3}}{31}% 
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

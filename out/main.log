@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  15 JAN 2021 18:48
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  16 JAN 2021 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -569,10 +569,10 @@ File: figs/ex01_01.png Graphic file (type bmp)
 <figs/ex01_01.png>
 File: figs/ex01_02.png Graphic file (type bmp)
 <figs/ex01_02.png>
-File: figs/ex01_01.png Graphic file (type bmp)
-<figs/ex01_01.png>
+File: figs/ex01_03.png Graphic file (type bmp)
+<figs/ex01_03.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 21--46
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 42--67
 [][] 
  []
 
@@ -603,12 +603,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5875 strings out of 493223
- 75723 string characters out of 6144415
+ 5879 strings out of 493223
+ 75792 string characters out of 6144415
  362014 words of memory out of 5000000
- 9701 multiletter control sequences out of 15000+600000
+ 9704 multiletter control sequences out of 15000+600000
  19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,40p,799b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (43 pages, 137128 bytes).
+Output written on out/main.dvi (43 pages, 140392 bytes).
