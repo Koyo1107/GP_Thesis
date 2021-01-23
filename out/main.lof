@@ -1,36 +1,38 @@
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces VICSの仕組み(https://www.vics.or.jp/know/about/center.html)}}{7}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{8}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果(年代別)\cite {ministryofland}}}{10}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果（ブロック別）\cite {ministryofland}}}{10}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces VICSの仕組み(https://www.vics.or.jp/know/about/center.html)}}{6}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{7}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果(年代別)\cite {ministryofland}}}{9}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ドライブレコーダーの記録を活用したことがあるかについてのアンケート結果（ブロック別）\cite {ministryofland}}}{9}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces struct2depthと他の研究の比較\cite {casser2019struct2depth}}}{14}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}}{14}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces YOLOの物体検出システム\cite {yolov3}}}{15}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces YOLOのネットワーク構成図\cite {yolov3}}}{15}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces struct2depthと他の研究の比較\cite {casser2019struct2depth}}}{13}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces struct2depthのアプローチ(https://sites.google.com/view/struct2depth)}}{13}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces YOLOの物体検出システム\cite {yolov3}}}{14}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces YOLOのネットワーク構成図\cite {yolov3}}}{14}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ネットワーク構成図}}{19}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces フローチャート}}{21}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ネットワーク構成図}}{17}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces FCRN-DepthPredictionを用いた予備実験}}{23}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Google Tensorflowを用いた予備実験}}{23}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 症例1 - 誤った検出}}{25}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 症例2 - 自動車を検出できなかった症例}}{25}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 症例１の解決}}{26}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 症例２の解決}}{26}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 車間距離4m}}{27}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces 車間距離5m}}{27}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces 車間距離6m}}{27}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 車間距離4m時の平均値}}{28}% 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces 車間距離5m時の平均値}}{28}% 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 車間距離6m時の平均値}}{28}% 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces 車間距離4m時の最大値}}{28}% 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces 車間距離5m時の最大値}}{28}% 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces 車間距離6m時の最大値}}{28}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces FCRN-DepthPredictionを用いた予備実験}}{20}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Google Tensorflowを用いた予備実験}}{20}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 症例1 - 誤った検出}}{22}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 症例2 - 自動車を検出できなかった症例}}{22}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 症例１の解決}}{23}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 症例２の解決}}{23}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 車間距離4m}}{24}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 車間距離5m}}{24}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 車間距離6m}}{24}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 車間距離4m時の平均値}}{25}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 車間距離5m時の平均値}}{25}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 車間距離6m時の平均値}}{25}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 車間距離4m時の最大値}}{25}% 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces 車間距離5m時の最大値}}{25}% 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces 車間距離6m時の最大値}}{25}% 
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 結果1}}{31}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 結果2}}{31}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 結果3}}{31}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 結果1}}{28}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 結果2}}{28}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 結果3}}{28}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 結果1}}{29}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces 結果2}}{29}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces 結果3}}{29}% 
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

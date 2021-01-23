@@ -196,10 +196,8 @@ INPUT figs/yolo_architecture.png
 INPUT extractbb -B cropbox -O figs/yolo_architecture.png
 INPUT sections/approach.tex
 INPUT sections/approach.tex
-INPUT figs/system_buildver1.png
-INPUT extractbb -B cropbox -O figs/system_buildver1.png
-INPUT figs/gp2_flowchart.png
-INPUT extractbb -B cropbox -O figs/gp2_flowchart.png
+INPUT figs/system_net.png
+INPUT extractbb -B cropbox -O figs/system_net.png
 INPUT sections/implementation.tex
 INPUT sections/implementation.tex
 INPUT figs/preex1.png
@@ -240,6 +238,12 @@ INPUT figs/ex01_02.png
 INPUT extractbb -B cropbox -O figs/ex01_02.png
 INPUT figs/ex01_03.png
 INPUT extractbb -B cropbox -O figs/ex01_03.png
+INPUT figs/ex01_01after.png
+INPUT extractbb -B cropbox -O figs/ex01_01after.png
+INPUT figs/ex01_02after.png
+INPUT extractbb -B cropbox -O figs/ex01_02after.png
+INPUT figs/ex01_03after.png
+INPUT extractbb -B cropbox -O figs/ex01_03after.png
 INPUT sections/evaluation.tex
 INPUT sections/evaluation.tex
 INPUT sections/conclusion.tex
