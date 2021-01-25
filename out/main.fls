@@ -140,14 +140,14 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
-INPUT out/main.toc
-INPUT out/main.toc
+INPUT main.toc
+INPUT main.toc
 OUTPUT out/main.toc
-INPUT out/main.lof
-INPUT out/main.lof
+INPUT main.lof
+INPUT main.lof
 OUTPUT out/main.lof
-INPUT out/main.lot
-INPUT out/main.lot
+INPUT main.lot
+INPUT main.lot
 OUTPUT out/main.lot
 INPUT sections/introduction.tex
 INPUT sections/introduction.tex
@@ -182,6 +182,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT figs/use_driverecoder1.png
 INPUT extractbb -B cropbox -O figs/use_driverecoder1.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT figs/use_driverecorder2.png
 INPUT extractbb -B cropbox -O figs/use_driverecorder2.png
 INPUT sections/related.tex

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  23 JAN 2021 16:02
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  25 JAN 2021 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -439,13 +439,13 @@ Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
 n/10 (https://response.jp/article/2020/03/05/332331.html) [][]  
  []
 
-[5
-
-])
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [6] (./main.lot)
+ [5
+
+] [6] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -470,94 +470,92 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ] [2]) (./sections/problem.tex [3]
 第2章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
  [4
 
 ] [5]
 File: figs/vics.png Graphic file (type bmp)
 <figs/vics.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 80.
+(Font)              scaled to size 8.64899pt on input line 81.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 80.
+(Font)              scaled to size 8.64899pt on input line 81.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 96.
+(Font)              scaled to size 11.53198pt on input line 97.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 96.
+(Font)              scaled to size 11.53198pt on input line 97.
  [6]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
 
-[7]
+[7] [8]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 128.
+(Font)              scaled to size 6.72699pt on input line 145.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 135.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 152.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 135.
+(Font)              scaled to size 6.72699pt on input line 152.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 135.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 152.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 135.
+(Font)              scaled to size 6.72699pt on input line 152.
 
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 144.
+(amsmath)                 on input line 161.
 
 
-LaTeX Warning: Reference `fig:use_recoder' on page 8 undefined on input line 17
-9.
+LaTeX Warning: Reference `fig:use_recoder' on page 9 undefined on input line 19
+6.
 
 File: figs/use_driverecoder1.png Graphic file (type bmp)
 <figs/use_driverecoder1.png>
 File: figs/use_driverecorder2.png Graphic file (type bmp)
 <figs/use_driverecorder2.png>
-[8] [9]) (./sections/related.tex [10]
+[9] [10]) (./sections/related.tex [11]
 第3章
-[11
+[12
 
-] [12]
+] [13]
 File: figs/struct2depth_related.png Graphic file (type bmp)
 <figs/struct2depth_related.png>
 File: figs/aproach_depth.png Graphic file (type bmp)
 <figs/aproach_depth.png>
- [13]
+ [14]
 File: figs/Yolo_Detection_system.png Graphic file (type bmp)
 <figs/Yolo_Detection_system.png>
 File: figs/yolo_architecture.png Graphic file (type bmp)
 <figs/yolo_architecture.png>
-) (./sections/approach.tex [14] [15]
+) (./sections/approach.tex [15] [16]
 第4章
-[16
+[17
 
 ]
 
-LaTeX Warning: Reference `fig:system_flow' on page 17 undefined on input line 2
-9.
+LaTeX Warning: Reference `fig:system_flow' on page 18 undefined on input line 3
+4.
 
 File: figs/system_net.png Graphic file (type bmp)
 <figs/system_net.png>
-[17]) (./sections/implementation.tex [18]
-第5章
+[18]) (./sections/implementation.tex
 
 LaTeX Warning: Reference `fig:preex' on page 19 undefined on input line 13.
 
 
 LaTeX Warning: Reference `fig:preex' on page 19 undefined on input line 14.
 
+[19]
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
-[19
-
-] [20] [21]
+ [20] [21]
 File: figs/miss_1.png Graphic file (type bmp)
 <figs/miss_1.png>
 File: figs/miss_2.png Graphic file (type bmp)
@@ -613,7 +611,7 @@ Overfull \hbox (14.13814pt too wide) in paragraph at lines 204--229
  []
 
 [24]) (./sections/experiment.tex [25] [26]
-第6章
+第5章
 [27
 
 ]
@@ -641,14 +639,11 @@ Overfull \hbox (14.13814pt too wide) in paragraph at lines 95--120
  []
 
 [29]) (./sections/evaluation.tex [30]
-第7章
+第6章
 [31
 
-]) (./sections/conclusion.tex [32]
-第8章
-) (./footer/acknowledgement.tex [33
-
-]) (./main.bbl [34
+]) (./sections/conclusion.tex) (./footer/acknowledgement.tex [32])
+(./main.bbl [33
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -659,9 +654,9 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 14.
- [35
+ [34
 
-]) [36] (./main.aux)
+]) [35] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -670,12 +665,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5886 strings out of 493223
- 75798 string characters out of 6144415
- 362014 words of memory out of 5000000
- 9711 multiletter control sequences out of 15000+600000
+ 5890 strings out of 493223
+ 75835 string characters out of 6144415
+ 365014 words of memory out of 5000000
+ 9715 multiletter control sequences out of 15000+600000
  19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (44 pages, 153612 bytes).
+Output written on main.dvi (43 pages, 157432 bytes).

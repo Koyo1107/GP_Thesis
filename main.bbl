@@ -40,6 +40,26 @@ Joseph Redmon and Ali Farhadi.
 \newblock コスメトロジー研究報告 [[コスメトロジーケンキュウホウコク]], Vol.~22,
   .
 
+\bibitem{Waze}
+Waze.
+\newblock \url{https://www.waze.com/}.
+
+\bibitem{Sigyc}
+Sigyc.
+\newblock \url{https://www.sygic.com/}.
+
+\bibitem{google_map}
+Google.
+\newblock Google ポリシーと規約.
+\newblock
+  \url{https://policies.google.com/technologies/location-data?hl=ja#how-find}.
+
+\bibitem{create_jam}
+Ben Schoon.
+\newblock Google maps ‘hack’ uses 99 smartphones to create virtual traffic
+  jams.
+\newblock 9to5google, 2020.
+
 \bibitem{全邦釘2017ディープラーニングおよび}
 全邦釘, 嶋本ゆり, 大窪和明, 三輪知寛, 大賀水田生.
 \newblock ディープラーニングおよび random forest
