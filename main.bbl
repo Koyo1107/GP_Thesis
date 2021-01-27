@@ -24,6 +24,27 @@ Joseph Redmon and Ali Farhadi.
 \newblock
   \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
 
+\bibitem{kankou_jam}
+国土交通省.
+\newblock 観光地における渋滞対策.
+\newblock \url{https://www.mlit.go.jp/common/001150187.pdf}.
+
+\bibitem{kankou_ai}
+国土交通省.
+\newblock ＩＣＴ・ＡＩを活用したエリア観光渋滞対策について.
+\newblock
+  \url{https://www.mlit.go.jp/road/ir/ir-council/keizai_senryaku/pdf07/3.pdf}.
+
+\bibitem{三上量弘2020deepcounter}
+三上量弘, 陳寅, 中澤仁ほか.
+\newblock Deepcounter: 深層学習を用いた細粒度なゴミ排出量データ収集手法.
+\newblock 情報処理学会論文誌, Vol.~61, No.~1, pp. 36--48, 2020.
+
+\bibitem{japantaxi}
+CEATEC.
+\newblock Japantaxi,タクシーの価値活かすリアルタイムデータ情報で多業種と連携へ.
+\newblock \url{https://www.ceatec.com/news/ja-webmagazine/074}, 2019.
+
 \bibitem{zurich}
 渋滞の定義とは.高速道路の渋滞原因は先頭？渋滞回避やハザードなどの事故対策,
   2020.
@@ -59,6 +80,8 @@ Ben Schoon.
 \newblock Google maps ‘hack’ uses 99 smartphones to create virtual traffic
   jams.
 \newblock 9to5google, 2020.
+\newblock
+  \url{https://9to5google.com/2020/02/04/google-maps-hack-virtual-traffic-jam/}.
 
 \bibitem{全邦釘2017ディープラーニングおよび}
 全邦釘, 嶋本ゆり, 大窪和明, 三輪知寛, 大賀水田生.
@@ -66,11 +89,6 @@ Ben Schoon.
   によるコンクリートのひび割れ自動検出手法.
 \newblock 土木学会論文集 F3 (土木情報学), Vol.~73, No.~2, pp. I\_297--I\_307,
   2017.
-
-\bibitem{三上量弘2020deepcounter}
-三上量弘, 陳寅, 中澤仁ほか.
-\newblock Deepcounter: 深層学習を用いた細粒度なゴミ排出量データ収集手法.
-\newblock 情報処理学会論文誌, Vol.~61, No.~1, pp. 36--48, 2020.
 
 \bibitem{進藤瞭2013車載カメラ画像を用いた対向車線の渋滞状況の把握手法}
 進藤瞭, 白石陽ほか.

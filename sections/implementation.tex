@@ -1,7 +1,7 @@
 %　ここはもともとパラメーターのための予備実験を書くところだった
 % どうするかはあなたに一任するわ
-\section{予備実験}
-ここでは,本研究が実験を行うにあたってその準備実験の試行として行なった実験について述べる.
+\chapter{実装と予備実験}
+ここでは本研究を行うにあたり実装したシステムと予備実験および、その改善について述べる。
 %\subsection{データセット}
 %この研究ではドライブレコーダーから得られる映像を用いて実験を行う.
 %その際,データーセットとしてYouTube等の動画投稿サイトに投稿されたドライブレコーダーの動画を用いる.
@@ -9,12 +9,39 @@
 \subsection{実験内容}
 本研究ではドライブレコーダーから得られる動画を用いて実験,評価を行うが,その予備実験として動画から切り出された画像を用いて本研究のシステムの実験を行った.
 この予備実験は,本研究を行うにあたって,距離推定プログラムあるいは深度推定プログラムの候補が２つあり,どちらが相応しいかを決める実験である.
-一つ目はFCRN-DepthPrediction\cite{laina2016deeper}というシステムであり,もう一つはstruct2depthである.
-結果を\figref{fig:preex}と\figref{fig:preex2}に示す.
+一つ目はFCRN-DepthPrediction\cite{laina2016deeper}というシステムであり,もう一つはstruct2depth\cite{casser2019struct2depth}である.
+元の画像および2つの深度推定ライブラリを使用した結果を\figref{fig:depth_raw},\figref{fig:preex}および\figref{fig:preex2}に示す.
 \figref{fig:preex}のように,このシステムは画像を上下二段に切り分け,上段では入力された映像の高さを半分にした画像,下段はその画像を用いて奥行き推定を行ったものである.
 また,上段で自動車とトラックを検出し,下段の同じ位置にBBOXを出力している.
 下段のBBOX内に出力されているパラメーターは,下段BOX内のRGB値のそれぞれの値を平均した数値である.
+\newpage
+% --------------------------------------------
 
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[width=12cm]{figs/depth_raw.png}
+   \end{center}
+   \caption{元の画像データー}
+   \label{fig:depth_raw}
+  \end{figure}
+
+  \begin{figure}[htbp]
+  \begin{center}
+   \includegraphics[width=12cm]{figs/preex1.png}
+  \end{center}
+  \caption{FCRN-DepthPredictionを用いたもの}
+  \label{fig:preex1}
+\end{figure}
+
+\begin{figure}[htbp]
+ \begin{center}
+  \includegraphics[width=12cm]{figs/preex2.png}
+\end{center}
+  \caption{struct2depthを用いたもの}
+  \label{fig:preex2}
+\end{figure}
+% ----------------------------------------------
+\newpage
 \subsection{評価}
 ここでは,本研究における予備実験の評価について述べる.
 \figref{fig:preex1}と\figref{fig:preex2}を比較すると,前者は深度推定を行なった結果のみを出力するのに対し,後者は元の画像を圧縮し上下二段二分けて出力されていることがわかる.
@@ -29,23 +56,9 @@
 この数値の違いを評価することで先行車との距離を推定し,走行スピードを推定し,渋滞しているかどうかを機械に判断させる.
 
 
-\begin{figure}[htbp]
-  \begin{center}
-   \includegraphics[width=12cm]{figs/preex1.png}
-  \end{center}
-  \caption{FCRN-DepthPredictionを用いた予備実験}
-  \label{fig:preex1}
-
- \begin{center}
-  \includegraphics[width=12cm]{figs/preex2.png}
- \end{center}
-  \caption{Google Tensorflowを用いた予備実験}
-  \label{fig:preex2}
-\end{figure}
-
-\newpage
 % 動画への適用 ---------------------------------
 % 画像処理の話
+\newpage
 \section{予備実験2 - 動画への適用}
 ここでは2つめに行った予備実験について述べる.
 \subsection{実験内容}
@@ -255,7 +268,149 @@
 \tabref{tab:mean_max}からわかることはR値は平均値と最大値のどちらにおいても距離との相関関係は薄いが,G値の特に平均値は距離が近くなるにつれて値が大きくなる傾向があるということである.
 この実験結果をもとに,今後の実験においてはG値の平均値を用い,また予備実験３の実験内容の項で述べた通り,車間距離５mを基準とし,G値が100を下回った際に渋滞していると判断する.
 
+\section{ドライブレコーダー映像を用いた予備実験}
+\subsection{実験内容}
+作成された評価基準を用いて実際にドライブレコーダーにおいてどのようなパフォーマンスをするかの実験を行った。
+評価基準の通り、strct2depth画面における車のbbox内のG値が100を超えた際に渋滞と判断し,画面左上に「Traffic Jam」という文字列が表示されるようにした.
+加えて,映像中に渋滞が判断された回数をフレームごとにJam Counterとして回数を映像中段左に表示されるようにした.
+
+\subsection{使用したデータセット}
+本実験にて使用したデータセットは動画投稿サイトYouTubeにて公開されていた高速道路を走行中の映像に加え,私の家族が使用している自家用車に取り付けられたドライブレコーダー映像を用いる.
+どの映像も３０秒から１分のものであり,常に先行車がある映像を使用した.以下に使用した映像について表で示す.
+
+% ----------------------------------------------------
+\begin{table}[htbp]
+  \centering
+  \begin{scriptsize}
+  \begin{tabular}{ccccc}
+  \toprule
+映像番号 & 時間帯 & 撮影場所 & 車線数 & 動画時間\\
+  \midrule
+映像1 & 昼間 & 一般道 & 1 & 60秒\\
+映像2 & 昼間 & 一般道 & 2 & 60秒\\
+映像3 & 不明 & 高速道路（トンネル) & 2 & 60秒 \\
+  \bottomrule
+  \end{tabular}
+  \end{scriptsize}
+  \caption{使用したデータセット}
+  \label{tab:dataset}
+\end{table}
+% ------------------------------------------------------
+
+% 実験１で発生した問題を述べる
+\section{実験結果と課題}
+実験結果１〜３に
+予備実験にて改良したシステムをそのまま用いると,様々な状況で渋滞を誤検出するという問題が発生してしまう.
+
+% --------------------------------------------------
+\begin{figure}[htbp]
+  \begin{tabular}{c}
+    \begin{minipage}{0.33\hsize}
+      \begin{center}
+   \includegraphics[width=4.5cm]{figs/ex01_01.png}
+    \end{center}
+  \caption{結果1}
+  \label{fig:ex01_01}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/ex01_02.png}
+  \end{center}
+  \caption{結果2}
+  \label{fig:ex01_02}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/ex01_03.png}
+  \end{center}
+  \caption{結果3}
+  \label{fig:ex01_03}
+\end{minipage}
+\end{tabular}
+\end{figure}
+% ---------------------------------------------------
+
+\figref{fig:ex01_01},\figref{fig:ex01_02},および\figref{fig:ex01_03}の結果からわかるように様々な要因で渋滞の誤検出が起きた.
+まず,\figref{fig:ex01_01}においては対向車がドライブレコーダー付きの自動車を横切ってしまうとその際に渋滞と判断してしまう例である.
+対向車の存在は渋滞と関係ないのに対し,渋滞と判断してしまうのは正しい判断ではない.
+次に,\figref{fig:ex01_02}においては,複数車線がある場合に隣の車線の自動車が近くで走行している際に渋滞だと判断してしいる例である.
+先述の対向車のケースとは異なり,隣の車線の混雑は走行車線の混雑と関係がある.
+しかし,\figref{fig:ex01_02}のように,先行車との距離があるにもかかわらずたまたま隣で走っていたトラックが近いがために渋滞だと判断してしまうのは正しい判断ではない.
+そして,\figref{fig:ex01_03}においては,道路脇に駐車しているトラックを画像検知システムが検知してしまい,渋滞だと判断している例である.
+高速道路では稀であるが一般道を走行している際に道路脇に自動車が駐車されているのは珍しいことではなく,またその駐車は渋滞には一切関係がない.
+それにもかかわらず渋滞だと判断しているのは正しい判断ではない.
+これらの判断ミスのケースは\tabref{tab:dataset}の表にある映像のいずれにおいても頻繁に発生する問題であった.
+
+\subsection{解決アプローチ}
+実験１における問題の解決のために対向車,隣車線の自動車および駐車している自動車を検出しないという解決策を取った.
+対向車や隣車線の自動車といったものはドライブレコーダー映像において左右の1/3に写っている.
+ここに着目し,左右1/3に写っている自動車類の検出をしないように改良した.
+
+\newpage
+
+\section{改良したシステムを用いた実験}
+実験１における解決アプローチを元にプログラムを改良した.
+プログラムにおいて処理中の画像の横のサイズは416ピクセルなので,その1/3である138ピクセルの範囲で左右における自動車類を検出しないようにした.
+
+\section{実験結果}
+映像中における実験１と同じフレームの画像での実験結果を以下に示す.
+
+% --------------------------------------------------
+\begin{figure}[htbp]
+  \begin{tabular}{c}
+    \begin{minipage}{0.33\hsize}
+      \begin{center}
+   \includegraphics[width=4.5cm]{figs/ex01_01after.png}
+    \end{center}
+  \caption{結果1}
+  \label{fig:ex01_01after}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/ex01_02after.png}
+  \end{center}
+  \caption{結果2}
+  \label{fig:ex01_02after}
+\end{minipage}
+
+  \begin{minipage}{0.33\hsize}
+  \begin{center}
+    \includegraphics[width=4.5cm]{figs/ex01_03after.png}
+  \end{center}
+  \caption{結果3}
+  \label{fig:ex01_03after}
+\end{minipage}
+\end{tabular}
+\end{figure}
+% ---------------------------------------------------
+
+\figref{fig:ex01_01after},\figref{fig:ex01_02after}および\figref{fig:ex01_03after}からわかる通り,左右の1/3を検出しないことで先行車のみを検出し,より正しく渋滞推定を行うことができている.
+また,実験１と実験２における動画の中で渋滞だと検出した回数の比較の表を以下に示す.
+
+% ----------------------------------------------------
+\begin{table}[htbp]
+  \centering
+  \begin{scriptsize}
+  \begin{tabular}{ccc}
+  \toprule
+映像番号 & 実験１ & 実験２\\
+  \midrule
+映像1 & 425 & 131\\
+映像2 & 1309 & 401\\
+映像3 & 256 & 59\\
+映像4 & 1364 & 65\\
+  \bottomrule
+  \end{tabular}
+  \end{scriptsize}
+  \caption{実験２ - 結果}
+  \label{tab:dataset}
+\end{table}
+% ------------------------------------------------------
+
 \section{まとめ}
-本章では,本研究において実装したシステムに関して行なった予備実験について述べた.
+本章では,本研究におけるシステムの実装とシステム改良のための予備実験について述べた.
 予備実験では使用する深度推定ライブラリの決定,画像圧縮問題の解決および評価基準の決定を行った.
 次章では本研究における本実験について述べる.

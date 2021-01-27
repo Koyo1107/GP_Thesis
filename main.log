@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  26 JAN 2021 18:45
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  27 JAN 2021 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,27 +426,27 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
  (./main.toc
 [3
 
-])
+] [4])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [4] (./main.lof
+ [5] (./main.lof
 Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
  [][] [] \JY1/mc/m/n/10 実証実験中のプロ ーブ情報を利用したシステム \OT1/cmr/m/
 n/10 (https://response.jp/article/2020/03/05/332331.html) [][]  
  []
 
-)
+[6
+
+])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [5
-
-] [6] (./main.lot)
+ [7] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [7
+ [8
 
 ] (./sections/introduction.tex
 第1章
@@ -462,18 +462,24 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 6.
 [1
 
 
-] [2]) (./sections/problem.tex [3]
-第2章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
- [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+ [2])
+(./sections/problem.tex [3]
+第2章
+[4
 
 ] [5]
 File: figs/vics.png Graphic file (type bmp)
@@ -482,15 +488,10 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 81.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 81.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 97.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 97.
  [6]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
-
-[7] [8]
+ [7] [8]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 145.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
@@ -540,40 +541,45 @@ LaTeX Warning: Reference `fig:system_flow' on page 18 undefined on input line 3
 
 File: figs/system_net.png Graphic file (type bmp)
 <figs/system_net.png>
-[18]) (./sections/implementation.tex
+[18]) (./sections/implementation.tex [19]
+第5章
 
-LaTeX Warning: Reference `fig:preex' on page 19 undefined on input line 13.
+LaTeX Warning: Reference `fig:preex' on page 20 undefined on input line 13.
 
 
-LaTeX Warning: Reference `fig:preex' on page 19 undefined on input line 14.
+LaTeX Warning: Reference `fig:preex' on page 20 undefined on input line 14.
 
-[19]
+[20
+
+]
+File: figs/depth_raw.png Graphic file (type bmp)
+<figs/depth_raw.png>
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
- [20] [21]
+ [21] [22] [23]
 File: figs/miss_1.png Graphic file (type bmp)
 <figs/miss_1.png>
 File: figs/miss_2.png Graphic file (type bmp)
 <figs/miss_2.png>
- [22]
+ [24]
 File: figs/pre1_after.png Graphic file (type bmp)
 <figs/pre1_after.png>
 File: figs/pre1_after2.png Graphic file (type bmp)
 <figs/pre1_after2.png>
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 93--107
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 106--120
 [][]$[]$[] []$[]$[] 
  []
 
 
-LaTeX Warning: Reference `pre2after1' on page 23 undefined on input line 110.
+LaTeX Warning: Reference `pre2after1' on page 25 undefined on input line 123.
 
 
-LaTeX Warning: Reference `pre2after2' on page 23 undefined on input line 110.
+LaTeX Warning: Reference `pre2after2' on page 25 undefined on input line 123.
 
-[23]
+[25]
 File: figs/sumple/4m_01.png Graphic file (type bmp)
 <figs/sumple/4m_01.png>
 File: figs/sumple/5m_02.png Graphic file (type bmp)
@@ -581,7 +587,7 @@ File: figs/sumple/5m_02.png Graphic file (type bmp)
 File: figs/sumple/6m_01.png Graphic file (type bmp)
 <figs/sumple/6m_01.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 137--162
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 150--175
 [][] 
  []
 
@@ -592,7 +598,7 @@ File: figs/sumple/5m_02mean.png Graphic file (type bmp)
 File: figs/sumple/6m_01mean.png Graphic file (type bmp)
 <figs/sumple/6m_01mean.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 174--199
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 187--212
 [][] 
  []
 
@@ -603,15 +609,11 @@ File: figs/sumple/5m_02max.png Graphic file (type bmp)
 File: figs/sumple/6m_01max.png Graphic file (type bmp)
 <figs/sumple/6m_01max.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 204--229
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 217--242
 [][] 
  []
 
-[24]) (./sections/experiment.tex [25] [26]
-第5章
-[27
-
-]
+[26] [27]
 File: figs/ex01_01.png Graphic file (type bmp)
 <figs/ex01_01.png>
 File: figs/ex01_02.png Graphic file (type bmp)
@@ -619,11 +621,11 @@ File: figs/ex01_02.png Graphic file (type bmp)
 File: figs/ex01_03.png Graphic file (type bmp)
 <figs/ex01_03.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 42--67
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 307--332
 [][] 
  []
 
-[28]
+[28] [29]
 File: figs/ex01_01after.png Graphic file (type bmp)
 <figs/ex01_01after.png>
 File: figs/ex01_02after.png Graphic file (type bmp)
@@ -631,16 +633,20 @@ File: figs/ex01_02after.png Graphic file (type bmp)
 File: figs/ex01_03after.png Graphic file (type bmp)
 <figs/ex01_03after.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 95--120
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 362--387
 [][] 
  []
 
-[29]) (./sections/evaluation.tex [30]
+) (./sections/experiment.tex [30]
 第6章
-[31
+) (./sections/evaluation.tex [31
 
-]) (./sections/conclusion.tex) (./footer/acknowledgement.tex [32])
-(./main.bbl [33
+] [32]
+第7章
+[33
+
+]) (./sections/conclusion.tex) (./footer/acknowledgement.tex [34])
+(./main.bbl [35
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -651,9 +657,9 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 14.
- [34
+ [36
 
-]) [35] (./main.aux)
+]) [37] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -662,12 +668,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5892 strings out of 493223
- 75867 string characters out of 6144415
- 365014 words of memory out of 5000000
- 9717 multiletter control sequences out of 15000+600000
+ 5899 strings out of 493223
+ 75978 string characters out of 6144415
+ 363014 words of memory out of 5000000
+ 9723 multiletter control sequences out of 15000+600000
  19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (43 pages, 161456 bytes).
+Output written on main.dvi (46 pages, 168444 bytes).

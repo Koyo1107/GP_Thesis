@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  26 JAN 2021 18:44
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  27 JAN 2021 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,11 +385,11 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 41.
 (out/main.toc [3
 
-])
+] [4])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[4] (out/main.lof
+[5] (out/main.lof
 Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
  [][] [] \JY1/mc/m/n/10 実証実験中のプロ ーブ情報を利用したシステム \OT1/cmr/m/n/10 (https://response.jp/article/2020/03/05/332331.html) [][]  
  []
@@ -398,13 +398,13 @@ Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-[5
+[6
 
-] [6] (out/main.lot)
+] [7] (out/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
-[7
+[8
 
 ] (./sections/introduction.tex
 第1章
@@ -420,17 +420,22 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 6.
 [1
 
 
-] [2]) (./sections/problem.tex [3]
-第2章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+[2]) (./sections/problem.tex [3]
+第2章
 [4
 
 ] [5]
@@ -440,10 +445,6 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 81.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 81.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 97.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 97.
 [6]
 File: figs/probe.jpg Graphic file (type bmp)
 <figs/probe.jpg>
@@ -615,12 +616,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5894 strings out of 493223
- 76036 string characters out of 6144415
- 365014 words of memory out of 5000000
- 9717 multiletter control sequences out of 15000+600000
+ 5897 strings out of 493223
+ 76070 string characters out of 6144415
+ 363014 words of memory out of 5000000
+ 9720 multiletter control sequences out of 15000+600000
  19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,40p,799b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (43 pages, 161456 bytes).
+Output written on out/main.dvi (44 pages, 167536 bytes).

@@ -1,8 +1,10 @@
 \contentsline {chapter}{\numberline {第1章}はじめに}{1}% 
 \contentsline {section}{\numberline {1.1}背景}{1}% 
-\contentsline {section}{\numberline {1.2}ドライブレコーダーについて}{2}% 
-\contentsline {section}{\numberline {1.3}目的}{2}% 
-\contentsline {section}{\numberline {1.4}渋滞の定義}{2}% 
+\contentsline {subsection}{\numberline {1.1.1}渋滞について}{1}% 
+\contentsline {subsection}{\numberline {1.1.2}ドライブレコーダーについて}{2}% 
+\contentsline {section}{\numberline {1.2}問題}{2}% 
+\contentsline {section}{\numberline {1.3}目的}{3}% 
+\contentsline {section}{\numberline {1.4}渋滞の定義}{3}% 
 \contentsline {section}{\numberline {1.5}構成}{3}% 
 \contentsline {chapter}{\numberline {第2章}渋滞とドライブレコーダー}{4}% 
 \contentsline {section}{\numberline {2.1}渋滞の原因}{4}% 
@@ -11,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.3.1}プローブ情報}{7}% 
 \contentsline {subsection}{\numberline {2.3.2}GPS等の位置情報}{7}% 
 \contentsline {section}{\numberline {2.4}ドライブレコーダー}{9}% 
-\contentsline {section}{\numberline {2.5}ドライブレコーダーを使うメリット}{9}% 
+\contentsline {section}{\numberline {2.5}ドライブレコーダーの可能性と機会損失}{9}% 
 \contentsline {section}{\numberline {2.6}まとめ}{11}% 
 \contentsline {chapter}{\numberline {第3章}関連研究}{12}% 
 \contentsline {section}{\numberline {3.1}ドライブレコーダーを用いた研究}{12}% 
@@ -24,44 +26,44 @@
 \contentsline {section}{\numberline {4.1}設計}{17}% 
 \contentsline {section}{\numberline {4.2}実装}{18}% 
 \contentsline {subsection}{\numberline {4.2.1}ネットワークアーキテクチャ}{18}% 
-\contentsline {subsection}{\numberline {4.2.2}距離推定}{18}% 
+\contentsline {subsection}{\numberline {4.2.2}距離推定と深度推定ライブラリ}{18}% 
 \contentsline {subsection}{\numberline {4.2.3}自動車検出}{18}% 
 \contentsline {section}{\numberline {4.3}渋滞の評価について}{19}% 
 \contentsline {section}{\numberline {4.4}まとめ}{19}% 
-\contentsline {section}{\numberline {4.5}予備実験}{19}% 
-\contentsline {section}{\numberline {4.6}予備実験1 - 深度推定システム}{19}% 
-\contentsline {subsection}{\numberline {4.6.1}実験内容}{19}% 
-\contentsline {subsection}{\numberline {4.6.2}評価}{19}% 
-\contentsline {section}{\numberline {4.7}予備実験2 - 動画への適用}{21}% 
-\contentsline {subsection}{\numberline {4.7.1}実験内容}{21}% 
-\contentsline {subsection}{\numberline {4.7.2}症例}{21}% 
-\contentsline {subsection}{\numberline {4.7.3}解決アプローチ}{23}% 
-\contentsline {section}{\numberline {4.8}予備実験3 - 評価方法の決定}{24}% 
-\contentsline {subsection}{\numberline {4.8.1}実験内容}{24}% 
-\contentsline {subsection}{\numberline {4.8.2}使用するデーター}{24}% 
-\contentsline {subsection}{\numberline {4.8.3}実験方法}{24}% 
-\contentsline {subsection}{\numberline {4.8.4}評価基準の作成}{25}% 
-\contentsline {section}{\numberline {4.9}まとめ}{26}% 
-\contentsline {chapter}{\numberline {第5章}実験}{27}% 
-\contentsline {section}{\numberline {5.1}ドライブレコーダー映像を利用した実験}{27}% 
-\contentsline {subsection}{\numberline {5.1.1}実験内容}{27}% 
-\contentsline {subsection}{\numberline {5.1.2}使用したデータセット}{27}% 
-\contentsline {section}{\numberline {5.2}実験結果と課題}{28}% 
-\contentsline {subsection}{\numberline {5.2.1}解決アプローチ}{28}% 
-\contentsline {section}{\numberline {5.3}改良したシステムを用いた実験}{29}% 
-\contentsline {section}{\numberline {5.4}実験結果}{29}% 
-\contentsline {section}{\numberline {5.5}実験3 さまざまな状況における本システムの推定精度実験}{30}% 
-\contentsline {subsection}{\numberline {5.5.1}使用したデータセット}{30}% 
-\contentsline {subsection}{\numberline {5.5.2}結果}{30}% 
-\contentsline {section}{\numberline {5.6}再現性 適合率 mAP}{30}% 
-\contentsline {chapter}{\numberline {第6章}評価}{31}% 
-\contentsline {section}{\numberline {6.1}実験3の評価}{31}% 
-\contentsline {subsection}{\numberline {6.1.1}映像1について}{31}% 
-\contentsline {subsection}{\numberline {6.1.2}映像2について}{31}% 
-\contentsline {section}{\numberline {6.2}考察}{31}% 
-\contentsline {section}{\numberline {6.3}今後の展望}{31}% 
-\contentsline {subsection}{\numberline {6.3.1}処理時間の問題}{31}% 
-\contentsline {subsection}{\numberline {6.3.2}容量の問題}{32}% 
-\contentsline {subsection}{\numberline {6.3.3}精度向上のために}{32}% 
-\contentsline {section}{\numberline {6.4}結論}{32}% 
-\contentsline {chapter}{参考文献}{34}% 
+\contentsline {chapter}{\numberline {第5章}実装と予備実験}{20}% 
+\contentsline {section}{\numberline {5.1}予備実験1 - 深度推定システム}{20}% 
+\contentsline {subsection}{\numberline {5.1.1}実験内容}{20}% 
+\contentsline {subsection}{\numberline {5.1.2}評価}{22}% 
+\contentsline {section}{\numberline {5.2}予備実験2 - 動画への適用}{23}% 
+\contentsline {subsection}{\numberline {5.2.1}実験内容}{23}% 
+\contentsline {subsection}{\numberline {5.2.2}症例}{23}% 
+\contentsline {subsection}{\numberline {5.2.3}解決アプローチ}{25}% 
+\contentsline {section}{\numberline {5.3}予備実験3 - 評価方法の決定}{26}% 
+\contentsline {subsection}{\numberline {5.3.1}実験内容}{26}% 
+\contentsline {subsection}{\numberline {5.3.2}使用するデーター}{26}% 
+\contentsline {subsection}{\numberline {5.3.3}実験方法}{26}% 
+\contentsline {subsection}{\numberline {5.3.4}評価基準の作成}{27}% 
+\contentsline {section}{\numberline {5.4}ドライブレコーダー映像を用いた予備実験}{28}% 
+\contentsline {subsection}{\numberline {5.4.1}実験内容}{28}% 
+\contentsline {subsection}{\numberline {5.4.2}使用したデータセット}{28}% 
+\contentsline {section}{\numberline {5.5}実験結果と課題}{28}% 
+\contentsline {subsection}{\numberline {5.5.1}解決アプローチ}{29}% 
+\contentsline {section}{\numberline {5.6}改良したシステムを用いた実験}{30}% 
+\contentsline {section}{\numberline {5.7}実験結果}{30}% 
+\contentsline {section}{\numberline {5.8}まとめ}{30}% 
+\contentsline {chapter}{\numberline {第6章}実験}{31}% 
+\contentsline {section}{\numberline {6.1}さまざまな状況における本システムの推定精度実験}{31}% 
+\contentsline {subsection}{\numberline {6.1.1}使用したデータセット}{31}% 
+\contentsline {subsection}{\numberline {6.1.2}結果}{31}% 
+\contentsline {section}{\numberline {6.2}再現性 適合率 mAP}{32}% 
+\contentsline {chapter}{\numberline {第7章}評価}{33}% 
+\contentsline {section}{\numberline {7.1}実験3の評価}{33}% 
+\contentsline {subsection}{\numberline {7.1.1}映像1について}{33}% 
+\contentsline {subsection}{\numberline {7.1.2}映像2について}{33}% 
+\contentsline {section}{\numberline {7.2}考察}{33}% 
+\contentsline {section}{\numberline {7.3}今後の展望}{33}% 
+\contentsline {subsection}{\numberline {7.3.1}処理時間の問題}{33}% 
+\contentsline {subsection}{\numberline {7.3.2}容量の問題}{34}% 
+\contentsline {subsection}{\numberline {7.3.3}精度向上のために}{34}% 
+\contentsline {section}{\numberline {7.4}結論}{34}% 
+\contentsline {chapter}{参考文献}{36}% 
