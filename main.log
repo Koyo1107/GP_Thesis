@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  27 JAN 2021 18:39
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  28 JAN 2021 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,27 +426,27 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
  (./main.toc
 [3
 
-] [4])
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] (./main.lof
+ [4] (./main.lof
 Overfull \hbox (36.83209pt too wide) in paragraph at lines 4--4
  [][] [] \JY1/mc/m/n/10 実証実験中のプロ ーブ情報を利用したシステム \OT1/cmr/m/
 n/10 (https://response.jp/article/2020/03/05/332331.html) [][]  
  []
 
-[6
+[5
 
 ])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [7] (./main.lot)
+ [6] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [8
+ [7
 
 ] (./sections/introduction.tex
 第1章
@@ -541,29 +541,26 @@ LaTeX Warning: Reference `fig:system_flow' on page 18 undefined on input line 3
 
 File: figs/system_net.png Graphic file (type bmp)
 <figs/system_net.png>
-[18]) (./sections/implementation.tex [19]
-第5章
+[18]) (./sections/implementation.tex
 
-LaTeX Warning: Reference `fig:preex' on page 20 undefined on input line 13.
+LaTeX Warning: Reference `fig:preex' on page 19 undefined on input line 13.
 
 
-LaTeX Warning: Reference `fig:preex' on page 20 undefined on input line 14.
+LaTeX Warning: Reference `fig:preex' on page 19 undefined on input line 14.
 
-[20
-
-]
+[19]
 File: figs/depth_raw.png Graphic file (type bmp)
 <figs/depth_raw.png>
 File: figs/preex1.png Graphic file (type bmp)
 <figs/preex1.png>
 File: figs/preex2.png Graphic file (type bmp)
 <figs/preex2.png>
- [21] [22] [23]
+ [20] [21] [22]
 File: figs/miss_1.png Graphic file (type bmp)
 <figs/miss_1.png>
 File: figs/miss_2.png Graphic file (type bmp)
 <figs/miss_2.png>
- [24]
+ [23]
 File: figs/pre1_after.png Graphic file (type bmp)
 <figs/pre1_after.png>
 File: figs/pre1_after2.png Graphic file (type bmp)
@@ -574,12 +571,12 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 106--120
  []
 
 
-LaTeX Warning: Reference `pre2after1' on page 25 undefined on input line 123.
+LaTeX Warning: Reference `pre2after1' on page 24 undefined on input line 123.
 
 
-LaTeX Warning: Reference `pre2after2' on page 25 undefined on input line 123.
+LaTeX Warning: Reference `pre2after2' on page 24 undefined on input line 123.
 
-[25]
+[24]
 File: figs/sumple/4m_01.png Graphic file (type bmp)
 <figs/sumple/4m_01.png>
 File: figs/sumple/5m_02.png Graphic file (type bmp)
@@ -613,7 +610,7 @@ Overfull \hbox (14.13814pt too wide) in paragraph at lines 217--242
 [][] 
  []
 
-[26] [27]
+[25] [26]
 File: figs/ex01_01.png Graphic file (type bmp)
 <figs/ex01_01.png>
 File: figs/ex01_02.png Graphic file (type bmp)
@@ -625,7 +622,7 @@ Overfull \hbox (14.13814pt too wide) in paragraph at lines 307--332
 [][] 
  []
 
-[28] [29]
+[27] [28]
 File: figs/ex01_01after.png Graphic file (type bmp)
 <figs/ex01_01after.png>
 File: figs/ex01_02after.png Graphic file (type bmp)
@@ -637,16 +634,45 @@ Overfull \hbox (14.13814pt too wide) in paragraph at lines 362--387
 [][] 
  []
 
-) (./sections/experiment.tex [30]
-第6章
-) (./sections/evaluation.tex [31
+) (./sections/experiment.tex [29]
+第5章
+[30
 
-] [32]
-第7章
+]
+Overfull \hbox (20.53404pt too wide) in paragraph at lines 86--99
+ [][] 
+ []
+
+
+Overfull \hbox (26.65964pt too wide) in paragraph at lines 110--123
+ [][] 
+ []
+
+) (./sections/evaluation.tex [31] [32]
+第6章
+File: figs/mov2miss/miss01.png Graphic file (type bmp)
+<figs/mov2miss/miss01.png>
+File: figs/mov2miss/miss02.png Graphic file (type bmp)
+<figs/mov2miss/miss02.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 16--30
+[][]$[]$[] []$[]$[] 
+ []
+
 [33
 
-]) (./sections/conclusion.tex) (./footer/acknowledgement.tex [34])
-(./main.bbl [35
+]
+File: figs/consider/fn01.png Graphic file (type bmp)
+<figs/consider/fn01.png>
+File: figs/consider/fn02.png Graphic file (type bmp)
+<figs/consider/fn02.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 47--61
+[][]$[]$[] []$[]$[] 
+ []
+
+[34] [35]) (./sections/conclusion.tex) (./footer/acknowledgement.tex [36])
+(./main.bbl [37
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -657,9 +683,9 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 14.
- [36
+ [38
 
-]) [37] (./main.aux)
+]) [39] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -668,12 +694,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5899 strings out of 493223
- 75978 string characters out of 6144415
+ 5923 strings out of 493223
+ 76466 string characters out of 6144415
  363014 words of memory out of 5000000
- 9723 multiletter control sequences out of 15000+600000
+ 9739 multiletter control sequences out of 15000+600000
  19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,40p,752b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (46 pages, 168444 bytes).
+Output written on main.dvi (47 pages, 181196 bytes).
