@@ -19,10 +19,24 @@ Joseph Redmon and Ali Farhadi.
 \newblock Yolov3: An incremental improvement.
 \newblock {\em arXiv}, 2018.
 
+\bibitem{vics}
+Vics.
+\newblock \url{https://www.vics.or.jp/}.
+
 \bibitem{traffic_buisiness}
 道路交通情報ビジネスの現状と今後の展望 － 中間取りまとめ －, 2001.
 \newblock
   \url{http://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/jouhou/tyukanntorimatome.pdf}.
+
+\bibitem{drareco_hukyu}
+くるまのニュース編集部.
+\newblock ドライブレコーダーの普及率は4割強！
+  装着理由の大半は「トラブルの防止」.
+\newblock \url{https://kuruma-news.jp/post/302898}, 2020.
+
+\bibitem{myvoicecom}
+マイボイスコム.
+\newblock \url{https://www.myvoice.co.jp/index.html}.
 
 \bibitem{kankou_jam}
 国土交通省.
@@ -60,6 +74,18 @@ CEATEC.
   : パイロットスタディ.
 \newblock コスメトロジー研究報告 [[コスメトロジーケンキュウホウコク]], Vol.~22,
   .
+
+\bibitem{kokudo_jam}
+社会資本整備審議会~道路分科会国土幹線道路部会.
+\newblock 高速道路を中心とした「道路を賢く使う取組」の基本方針, 2015.
+\newblock \url{https://www.mlit.go.jp/common/001066982.pdf}.
+
+\bibitem{nissei}
+塩澤誠一郎.
+\newblock
+  自動運転は年間約10兆円の経済損失をプラスの経済効果に変えることができるか？
+\newblock \url{https://www.nli-research.co.jp/report/detail/id=63430?site=nli},
+  2020.
 
 \bibitem{Waze}
 Waze.

@@ -13,11 +13,19 @@
 \begin{flushleft}
 \textbf{Abstract}\\
 \end{flushleft}
-Congestion information in Japan is mainly calculated in real time from road sensors and surveillance camera images, and such information is used in car navigation systems. However, such systems are not installed on some roads and information is limited. This study aims to take advantage of the recent increase in the number of drive recorders and improvements in video technology to estimate traffic congestion on all roads by using monocular camera images obtained from drive recorders. The implementation uses monocular camera video from drive recorders, a distance estimation library and an object detection system to estimate whether or not a vehicle is congested based on the distance from the vehicle ahead.
+In Japan, traffic jam information is mainly obtained from sensors and monitoring cameras installed on roads, and sent to traffic information management centers such as VICS, which in turn send the information to car navigation systems.
+However, traffic jam information can currently be obtained only on some roads, such as expressways and national ways, and cannot be collected on other roads.
+In addition, the installation rate of drive recorders has been increasing as a result of recent improvements in performance and the surfacing of dangerous and incendiary driving.
+However, there are few cases in which the videos from the installed drive recorders are used for viewing.
+Since the drive recorder is a video device, it can collect various data by detecting objects and recognizing images.
+The purpose of this research is to propose a new way to use the drive recorder and reducing the area where traffic jam information can be collected, which is limited.
+As an approach to the purpose, we propose Depth2Jam, a system to estimate traffic jam from the images of drive recorders.
+In this study, we implemented Depth2Jam and conducted an experimental evaluation of the accuracy of traffic jam estimation.
+In addition, we show the improvement of the accuracy of Depth2Jam and its future prospects.
 
 \begin{flushleft}
 \textbf{Keywords}\\
-\textbf{}
+\textbf{Drive Recorder,Traffic Jam, Deep Learning, Image Processing}
 \end{flushleft}
 
 \begin{flushright}

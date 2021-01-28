@@ -4,12 +4,15 @@
 \citation{casser2019struct2depth}
 \citation{yolov3}
 \citation{yolov3}
+\citation{vics}
 \citation{traffic_buisiness}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第1章}はじめに}{1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\jsc@mpt }}
 \@writefile{lot}{\addvspace {10\jsc@mpt }}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}背景}{1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}渋滞について}{1}\protected@file@percent }
+\citation{drareco_hukyu}
+\citation{myvoicecom}
 \citation{ministryofland}
 \citation{kankou_jam}
 \citation{kankou_ai}
@@ -17,6 +20,7 @@
 \citation{japantaxi}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}ドライブレコーダーについて}{2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}問題}{2}\protected@file@percent }
+\citation{zurich}
 \@writefile{toc}{\contentsline {section}{\numberline {1.3}目的}{3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {1.4}渋滞の定義}{3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {1.5}構成}{3}\protected@file@percent }
@@ -32,18 +36,20 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}渋滞の原因}{4}\protected@file@percent }
 \citation{alma99344256104031}
 \citation{alma99344256104031}
+\citation{kokudo_jam}
+\citation{nissei}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}渋滞がもたらす影響}{5}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}渋滞検知}{6}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces VICSの仕組み(https://www.vics.or.jp/know/about/center.html)}}{6}\protected@file@percent }
 \newlabel{fig:vics_system}{{2.1}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}プローブ情報}{7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{7}\protected@file@percent }
+\newlabel{fig:probe}{{2.2}{7}}
 \citation{Waze}
 \citation{Sigyc}
 \citation{google_map}
 \citation{create_jam}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}プローブ情報}{7}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces 実証実験中のプローブ情報を利用したシステム(https://response.jp/article/2020/03/05/332331.html)}}{7}\protected@file@percent }
-\newlabel{fig:probe}{{2.2}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}GPS等の位置情報}{7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}GPS等の位置情報}{8}\protected@file@percent }
 \citation{ministryofland}
 \citation{ministryofland}
 \citation{ministryofland}
@@ -103,149 +109,155 @@
 \citation{casser2019struct2depth}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}実装}{18}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}ネットワークアーキテクチャ}{18}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces ネットワーク構成図}}{18}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces ネットワークアーキテクチャ}}{18}\protected@file@percent }
 \newlabel{fig:system_arch}{{4.1}{18}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}距離推定と深度推定ライブラリ}{18}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}自動車検出}{18}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}渋滞の判断基準}{19}\protected@file@percent }
 \citation{laina2016deeper}
 \citation{casser2019struct2depth}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}渋滞の評価について}{19}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}実装と予備実験}{19}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}予備実験1 - 深度推定システム}{19}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}実験内容}{19}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}予備実験1 - 深度推定システム}{20}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}実験内容}{20}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 元の画像データー}}{20}\protected@file@percent }
 \newlabel{fig:depth_raw}{{4.2}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces FCRN-DepthPredictionを用いたもの}}{20}\protected@file@percent }
-\newlabel{fig:preex1}{{4.3}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}評価と使用するライブラリの決定}{20}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces FCRN-DepthPredictionを用いたもの}}{21}\protected@file@percent }
+\newlabel{fig:preex1}{{4.3}{21}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces struct2depthを用いたもの}}{21}\protected@file@percent }
 \newlabel{fig:preex2}{{4.4}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}評価}{21}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}予備実験2 - 動画への適用}{22}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}実験内容}{22}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.2}症例}{22}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 症例1 - 誤った検出}}{23}\protected@file@percent }
-\newlabel{fig:miss1}{{4.5}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 症例2 - 自動車を検出できなかった症例}}{23}\protected@file@percent }
-\newlabel{fig:miss2}{{4.6}{23}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.3}解決アプローチ}{24}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 症例１の解決}}{24}\protected@file@percent }
-\newlabel{fig:pre2after1}{{4.7}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 症例２の解決}}{24}\protected@file@percent }
-\newlabel{fig:pre2after2}{{4.8}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}予備実験2 - 動画への適用}{23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}実験内容}{23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}症例}{23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 症例1 - 誤った検出}}{24}\protected@file@percent }
+\newlabel{fig:miss1}{{4.5}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 症例2 - 自動車を検出できなかった症例}}{24}\protected@file@percent }
+\newlabel{fig:miss2}{{4.6}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}解決アプローチ}{24}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 症例１の解決}}{25}\protected@file@percent }
+\newlabel{fig:pre2after1}{{4.7}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 症例２の解決}}{25}\protected@file@percent }
+\newlabel{fig:pre2after2}{{4.8}{25}}
 \citation{casser2019struct2depth}
 \citation{highway}
 \citation{toyota_web}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}予備実験3 - 評価方法の決定}{25}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}実験内容}{25}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}使用するデーター}{25}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 車間距離4m}}{25}\protected@file@percent }
-\newlabel{fig:sumple4}{{4.9}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces 車間距離5m}}{25}\protected@file@percent }
-\newlabel{fig:sumple5}{{4.10}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces 車間距離6m}}{25}\protected@file@percent }
-\newlabel{fig:sumple6}{{4.11}{25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}実験方法}{25}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces 車間距離4m時の平均値}}{26}\protected@file@percent }
-\newlabel{fig:sumple4mean}{{4.12}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces 車間距離5m時の平均値}}{26}\protected@file@percent }
-\newlabel{fig:sumple5mean}{{4.13}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces 車間距離6m時の平均値}}{26}\protected@file@percent }
-\newlabel{fig:sumple6mean}{{4.14}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces 車間距離4m時の最大値}}{26}\protected@file@percent }
-\newlabel{fig:sumple4max}{{4.15}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces 車間距離5m時の最大値}}{26}\protected@file@percent }
-\newlabel{fig:sumple5max}{{4.16}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces 車間距離6m時の最大値}}{26}\protected@file@percent }
-\newlabel{fig:sumple6max}{{4.17}{26}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 距離別の平均値と最大値}}{26}\protected@file@percent }
-\newlabel{tab:mean_max}{{4.1}{26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}評価基準の作成}{26}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.8}ドライブレコーダー映像を用いた予備実験}{27}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.1}実験内容}{27}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.2}使用したデータセット}{27}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces 使用したデータセット}}{27}\protected@file@percent }
-\newlabel{tab:dataset}{{4.2}{27}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.9}実験結果と課題}{27}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces 結果1}}{27}\protected@file@percent }
-\newlabel{fig:ex01_01}{{4.18}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces 結果2}}{27}\protected@file@percent }
-\newlabel{fig:ex01_02}{{4.19}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces 結果3}}{27}\protected@file@percent }
-\newlabel{fig:ex01_03}{{4.20}{27}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.9.1}解決アプローチ}{28}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.10}改良したシステムを用いた実験}{29}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.11}実験結果}{29}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces 結果1}}{29}\protected@file@percent }
-\newlabel{fig:ex01_01after}{{4.21}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces 結果2}}{29}\protected@file@percent }
-\newlabel{fig:ex01_02after}{{4.22}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces 結果3}}{29}\protected@file@percent }
-\newlabel{fig:ex01_03after}{{4.23}{29}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces 実験２ - 結果}}{29}\protected@file@percent }
-\newlabel{tab:dataset}{{4.3}{29}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.12}まとめ}{29}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実験}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}予備実験3 - 評価方法の決定}{26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}実験内容}{26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.2}使用するデーター}{26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 車間距離4m}}{26}\protected@file@percent }
+\newlabel{fig:sumple4}{{4.9}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces 車間距離5m}}{26}\protected@file@percent }
+\newlabel{fig:sumple5}{{4.10}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces 車間距離6m}}{26}\protected@file@percent }
+\newlabel{fig:sumple6}{{4.11}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.3}実験方法}{26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces 車間距離4m時の平均値}}{27}\protected@file@percent }
+\newlabel{fig:sumple4mean}{{4.12}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces 車間距離5m時の平均値}}{27}\protected@file@percent }
+\newlabel{fig:sumple5mean}{{4.13}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces 車間距離6m時の平均値}}{27}\protected@file@percent }
+\newlabel{fig:sumple6mean}{{4.14}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces 車間距離4m時の最大値}}{27}\protected@file@percent }
+\newlabel{fig:sumple4max}{{4.15}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces 車間距離5m時の最大値}}{27}\protected@file@percent }
+\newlabel{fig:sumple5max}{{4.16}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces 車間距離6m時の最大値}}{27}\protected@file@percent }
+\newlabel{fig:sumple6max}{{4.17}{27}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 距離別の平均値と最大値}}{27}\protected@file@percent }
+\newlabel{tab:mean_max}{{4.1}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.4}評価基準の作成}{27}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}ドライブレコーダー映像を用いた予備実験}{28}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}実験内容}{28}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}使用したデータセット}{28}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces 使用したデータセット}}{28}\protected@file@percent }
+\newlabel{tab:dataset}{{4.2}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}実験結果と課題}{28}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces 結果1}}{28}\protected@file@percent }
+\newlabel{fig:ex01_01}{{4.18}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces 結果2}}{28}\protected@file@percent }
+\newlabel{fig:ex01_02}{{4.19}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces 結果3}}{28}\protected@file@percent }
+\newlabel{fig:ex01_03}{{4.20}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.1}解決アプローチ}{29}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.9}改良したシステムを用いた実験}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.10}実験結果}{30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces 結果1}}{30}\protected@file@percent }
+\newlabel{fig:ex01_01after}{{4.21}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces 結果2}}{30}\protected@file@percent }
+\newlabel{fig:ex01_02after}{{4.22}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces 結果3}}{30}\protected@file@percent }
+\newlabel{fig:ex01_03after}{{4.23}{30}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces 実験２ - 結果}}{30}\protected@file@percent }
+\newlabel{tab:dataset}{{4.3}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.11}まとめ}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実験}{31}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\jsc@mpt }}
 \@writefile{lot}{\addvspace {10\jsc@mpt }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}さまざまな状況におけるDepth2Jamの推定精度実験}{30}\protected@file@percent }
-\newlabel{sec:exp1}{{5.1}{30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}使用したデータセット}{30}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 実験 データーセット}}{30}\protected@file@percent }
-\newlabel{tab:exp_dataset3}{{5.1}{30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}結果}{30}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces 実験結果 - 各動画のフレームごとの比較}}{31}\protected@file@percent }
-\newlabel{tab:exp3_fig}{{5.2}{31}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Depth2Jamの精度評価実験}{31}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}実験1 - さまざまな状況におけるDepth2Jamの推定精度実験}{31}\protected@file@percent }
+\newlabel{sec:exp1}{{5.1}{31}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}実験2 - Depth2Jamの精度評価実験}{31}\protected@file@percent }
 \newlabel{sec:exp2}{{5.2}{31}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces それぞれの映像における精度}}{31}\protected@file@percent }
-\newlabel{tab:mAP_fig}{{5.3}{31}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces 画面全体を検出した場合の精度}}{31}\protected@file@percent }
-\newlabel{tab:mAP_fig_noweght}{{5.4}{31}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}評価}{32}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}考察}{33}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}使用したデータセット}{32}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 実験 データーセット}}{32}\protected@file@percent }
+\newlabel{tab:exp_dataset3}{{5.1}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}実験結果}{32}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces 実験１ - 結果}}{32}\protected@file@percent }
+\newlabel{tab:exp3_fig}{{5.2}{32}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces 実験2 結果}}{32}\protected@file@percent }
+\newlabel{tab:mAP_fig}{{5.3}{32}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces (参考)画面全体を検出した場合の精度}}{32}\protected@file@percent }
+\newlabel{tab:mAP_fig_noweght}{{5.4}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}評価}{33}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}考察}{34}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\jsc@mpt }}
 \@writefile{lot}{\addvspace {10\jsc@mpt }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}精度の考察}{33}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}誤検出}{33}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces 誤検出の例1}}{34}\protected@file@percent }
-\newlabel{fig:mov2miss01}{{6.1}{34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces 誤検出の例2}}{34}\protected@file@percent }
-\newlabel{fig:mov2miss02}{{6.2}{34}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}FNに関する考察}{34}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces FNの例1}}{35}\protected@file@percent }
-\newlabel{fig:fn01}{{6.3}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces FNの例2}}{35}\protected@file@percent }
-\newlabel{fig:fn02}{{6.4}{35}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}今後の展望}{35}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}処理時間の問題}{35}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}容量の問題}{35}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}精度向上のために}{36}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}結論}{36}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}精度の考察}{34}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}誤検出}{34}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces 誤検出の例1}}{35}\protected@file@percent }
+\newlabel{fig:mov2miss01}{{6.1}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces 誤検出の例2}}{35}\protected@file@percent }
+\newlabel{fig:mov2miss02}{{6.2}{35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}FNに関する考察}{35}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces FNの例1}}{36}\protected@file@percent }
+\newlabel{fig:fn01}{{6.3}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces FNの例2}}{36}\protected@file@percent }
+\newlabel{fig:fn02}{{6.4}{36}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第7章}結論}{37}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\jsc@mpt }}
+\@writefile{lot}{\addvspace {10\jsc@mpt }}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}今後の展望}{37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}処理時間の問題}{37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}容量の問題}{37}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}本研究のまとめ}{38}\protected@file@percent }
 \bibstyle{junsrt}
 \bibdata{ref.bib}
 \bibcite{ministryofland}{1}
 \bibcite{casser2019struct2depth}{2}
 \bibcite{yolov3}{3}
-\bibcite{traffic_buisiness}{4}
-\bibcite{kankou_jam}{5}
-\bibcite{kankou_ai}{6}
-\bibcite{三上量弘2020deepcounter}{7}
-\bibcite{japantaxi}{8}
-\bibcite{zurich}{9}
-\bibcite{NEXCOeast}{10}
-\bibcite{alma99344256104031}{11}
-\bibcite{Waze}{12}
-\bibcite{Sigyc}{13}
-\bibcite{google_map}{14}
-\bibcite{create_jam}{15}
-\bibcite{全邦釘2017ディープラーニングおよび}{16}
-\bibcite{進藤瞭2013車載カメラ画像を用いた対向車線の渋滞状況の把握手法}{17}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{38}\protected@file@percent }
-\bibcite{zhou2017unsupervised}{18}
-\bibcite{yin2018geonet}{19}
-\bibcite{ren2015faster}{20}
-\bibcite{he2017mask}{21}
-\bibcite{liu2016ssd}{22}
-\bibcite{laina2016deeper}{23}
-\bibcite{highway}{24}
-\bibcite{toyota_web}{25}
+\bibcite{vics}{4}
+\bibcite{traffic_buisiness}{5}
+\bibcite{drareco_hukyu}{6}
+\bibcite{myvoicecom}{7}
+\bibcite{kankou_jam}{8}
+\bibcite{kankou_ai}{9}
+\bibcite{三上量弘2020deepcounter}{10}
+\bibcite{japantaxi}{11}
+\bibcite{zurich}{12}
+\bibcite{NEXCOeast}{13}
+\bibcite{alma99344256104031}{14}
+\bibcite{kokudo_jam}{15}
+\bibcite{nissei}{16}
+\bibcite{Waze}{17}
+\bibcite{Sigyc}{18}
+\bibcite{google_map}{19}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{40}\protected@file@percent }
+\bibcite{create_jam}{20}
+\bibcite{全邦釘2017ディープラーニングおよび}{21}
+\bibcite{進藤瞭2013車載カメラ画像を用いた対向車線の渋滞状況の把握手法}{22}
+\bibcite{zhou2017unsupervised}{23}
+\bibcite{yin2018geonet}{24}
+\bibcite{ren2015faster}{25}
+\bibcite{he2017mask}{26}
+\bibcite{liu2016ssd}{27}
+\bibcite{laina2016deeper}{28}
+\bibcite{highway}{29}
+\bibcite{toyota_web}{30}
