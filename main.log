@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  29 JAN 2021 02:32
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.11.2)  29 JAN 2021 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,7 +566,7 @@ File: figs/sumple/5m_02.png Graphic file (type bmp)
 File: figs/sumple/6m_01.png Graphic file (type bmp)
 <figs/sumple/6m_01.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 146--171
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 147--172
 [][] 
  []
 
@@ -577,7 +577,7 @@ File: figs/sumple/5m_02mean.png Graphic file (type bmp)
 File: figs/sumple/6m_01mean.png Graphic file (type bmp)
 <figs/sumple/6m_01mean.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 183--208
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 184--209
 [][] 
  []
 
@@ -588,31 +588,31 @@ File: figs/sumple/5m_02max.png Graphic file (type bmp)
 File: figs/sumple/6m_01max.png Graphic file (type bmp)
 <figs/sumple/6m_01max.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 213--238
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 214--239
 [][] 
  []
 
 [26] [27]
 File: figs/ex01_01.png Graphic file (type bmp)
 <figs/ex01_01.png>
-File: figs/ex01_02.png Graphic file (type bmp)
-<figs/ex01_02.png>
 File: figs/ex01_03.png Graphic file (type bmp)
 <figs/ex01_03.png>
+File: figs/ex01_02.png Graphic file (type bmp)
+<figs/ex01_02.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 303--328
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 305--330
 [][] 
  []
 
 [28] [29]
 File: figs/ex01_01after.png Graphic file (type bmp)
 <figs/ex01_01after.png>
-File: figs/ex01_02after.png Graphic file (type bmp)
-<figs/ex01_02after.png>
 File: figs/ex01_03after.png Graphic file (type bmp)
 <figs/ex01_03after.png>
+File: figs/ex01_02after.png Graphic file (type bmp)
+<figs/ex01_02after.png>
 
-Overfull \hbox (14.13814pt too wide) in paragraph at lines 358--383
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 357--382
 [][] 
  []
 
@@ -620,7 +620,9 @@ Overfull \hbox (14.13814pt too wide) in paragraph at lines 358--383
 第5章
 [31
 
-]
+] [32]
+第6章
+
 Overfull \hbox (20.53404pt too wide) in paragraph at lines 81--94
  [][] 
  []
@@ -630,26 +632,25 @@ Overfull \hbox (26.65964pt too wide) in paragraph at lines 104--117
  [][] 
  []
 
-[32]) (./sections/evaluation.tex [33]
-第6章
+[33
+
+]) (./sections/evaluation.tex
 File: figs/mov2miss/miss01.png Graphic file (type bmp)
 <figs/mov2miss/miss01.png>
 File: figs/mov2miss/miss02.png Graphic file (type bmp)
 <figs/mov2miss/miss02.png>
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 16--30
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 15--29
 [][]$[]$[] []$[]$[] 
  []
 
-[34
-
-]
+[34]
 File: figs/consider/fn01.png Graphic file (type bmp)
 <figs/consider/fn01.png>
 File: figs/consider/fn02.png Graphic file (type bmp)
 <figs/consider/fn02.png>
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 47--61
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 46--60
 [][]$[]$[] []$[]$[] 
  []
 
@@ -680,12 +681,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5924 strings out of 493223
- 76467 string characters out of 6144415
+ 5927 strings out of 493223
+ 76507 string characters out of 6144415
  363014 words of memory out of 5000000
- 9740 multiletter control sequences out of 15000+600000
+ 9743 multiletter control sequences out of 15000+600000
  19307 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,40p,364b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (49 pages, 182864 bytes).
+Output written on main.dvi (49 pages, 181516 bytes).
